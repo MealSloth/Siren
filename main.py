@@ -1,7 +1,8 @@
 import os,sys
+import App
 os.environ['DJANGO_SETTINGS_MODULE'] = 'Siren.settings'
 
-# Google App Engine imports.
+# Google Base Engine imports.
 from google.appengine.ext.webapp import util
 
 # Force Django to reload its settings.
@@ -30,9 +31,7 @@ import django.dispatch.dispatcher
 app = django.core.handlers.wsgi.WSGIHandler()
 
 def main():
-
-  # Run the WSGI CGI handler with that application.
-  util.run_wsgi_app(app)
+    util.run_wsgi_app(app)
 
 if __name__ == '__main__':
-  main()
+    main()
