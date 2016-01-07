@@ -108,7 +108,7 @@ ROOT_URLCONF = 'Siren.urls'
 WSGI_APPLICATION = 'Siren.wsgi.application'
 
 TEMPLATE_DIRS = (
-    "/Siren/static",
+    "/Siren/templates",
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
