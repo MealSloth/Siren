@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa755381-9f9e-4e57-a279-ec56bdd15628" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/banner-food-preparation.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/banner-food-presentation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/heart-ellipse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/producer-customer-exchange.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/rocket-mono.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/shield-mono.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/smartphone-ellipse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/smartphone-mono.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/social-media/facebook-color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/social-media/facebook-mono.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/social-media/instagram-color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/social-media/instagram-mono.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/social-media/twitter-color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/social-media/twitter-mono.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Siren.iml" afterPath="$PROJECT_DIR$/.idea/Siren.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-about.css" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-about.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-about.less" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-about.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-home.css" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-home.less" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-home.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/style.css" afterPath="$PROJECT_DIR$/Siren/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
     </list>
     <list id="268a15cf-978d-4c6c-866b-dc024dd1f84d" name="Extra Stuff" comment="" />
     <ignored path="untitled.iws" />
@@ -62,8 +41,8 @@
       <file leaf-file-name="siren-home.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Siren/static/css/less/siren-home.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59876543">
-              <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.4613003">
+              <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -235,54 +214,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -632,15 +563,22 @@
       <option name="project" value="LOCAL" />
       <updated>1452323076356</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Starting skeleton">
+      <created>1452367093525</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1452367093525</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31042296" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31042296" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -651,7 +589,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="App Config Tool" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2765043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -677,7 +614,8 @@
     <MESSAGE value="Modified hierarchy" />
     <MESSAGE value="Modified hierarchy and added pages for new design" />
     <MESSAGE value="Standardized pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Standardized pages" />
+    <MESSAGE value="Starting skeleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting skeleton" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1026,8 +964,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Siren/static/css/less/siren-home.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59876543">
-          <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.4613003">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
           <folding />
         </state>
       </provider>
