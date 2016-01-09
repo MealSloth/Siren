@@ -1,6 +1,7 @@
 section.siren-home__section-header
 {
-    background: url("/static/img/home/banner-food-preparation.jpg") rgba(0,0,0,0.3) no-repeat;
+    background: url("/static/img/home/banner-food-preparation.jpg") no-repeat;
+    background-size: 100%;
     text-align: center;
     margin-top: -20px;
     height: 600px;
@@ -91,25 +92,44 @@ section.siren-home__section-body-1
                 height: 100%;
             }
 
-            > div
+            > table
             {
-                h5
+                tr
                 {
-                    padding: 5px 150px 5px 10px;
-                    text-align: left;
-                    font-size: 32px;
-                }
+                    td
+                    {
+                        h5
+                        {
+                            text-align: left;
+                            font-size: 32px;
+                            float: left;
+                        }
 
-                > img
-                {
-                    height: 91px;
-                    width: 91px;
-                }
+                        img
+                        {
+                            padding: 10px;
+                            float: right;
+                            height: 136px;
+                            width: 136px;
+                        }
 
-                p
-                {
-                    text-align: left;
-                    font-size: 22px;
+                        p
+                        {
+                            padding: 15px 0 0 0;
+                            text-align: left;
+                            font-size: 22px;
+                        }
+                    }
+
+                    > td.siren-home__section-body-2__td-first
+                    {
+                        width: 70%;
+                    }
+
+                    > td.siren-home__section-body-2__td-second
+                    {
+                        width: 30%;
+                    }
                 }
             }
         }
@@ -124,25 +144,58 @@ section.siren-home__section-body-1
 section.siren-home__section-body-2
 {
     background:  url("/static/img/home/banner-food-presentation.png") no-repeat;
+    background-size: 100%;
     text-align: center;
-    height: 600px;
+    height: 450px;
     color: white;
-    width: 66%;
+    width: 100%;
 
     > div
     {
-        background-color: rgba(0,0,0,0.2);
+        background-color: rgba(100,100,100,0.4);
+        border-bottom: 8px solid rgba(0,0,0,0.3);
+        border-top: 8px solid rgba(0,0,0,0.3);
         text-align: center;
-        height: 600px;
+        height: inherit;
         width: 100%;
 
         > div
         {
-            background-color: rgba(255,255,255,0.2);
-            border-bottom: 10px solid rgba(0,0,0,0.2);
-            border-top: 10px solid rgba(0,0,0,0.2);
             height: 100%;
             width: 100%;
+
+            h4
+            {
+                padding: 15px 0 0 0;
+                font-size: 52px;
+            }
+
+            > div
+            {
+                padding: 10px 0 0 0;
+                text-align: center;
+
+                img
+                {
+                    border: 5px solid rgba(60,60,60,1.0);
+                    height: 80%;
+                    width: 80%;
+                }
+            }
         }
+    }
+}
+
+section.siren-home__section-body-3
+{
+    background-color: white;
+    text-align: center;
+    height: 500px;
+    color: black;
+    width: 100%;
+
+    > div
+    {
+
     }
 }
