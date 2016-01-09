@@ -1,5 +1,4 @@
 import os,sys
-import App
 os.environ['DJANGO_SETTINGS_MODULE'] = 'Siren.settings'
 
 # Google Base Engine imports.
