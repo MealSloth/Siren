@@ -1,4 +1,7 @@
+import os.path
 # Django settings for untitled project.
+
+OS_Path = os.path.relpath('.')
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -61,7 +64,7 @@ MEDIA_URL = ''
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/var/www/example.com/static/"
-STATIC_ROOT = ''
+STATIC_ROOT = OS_Path
 
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
@@ -69,6 +72,7 @@ STATIC_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
+    OS_Path + "/static/css/App",
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -108,7 +112,7 @@ ROOT_URLCONF = 'Siren.urls'
 WSGI_APPLICATION = 'Siren.wsgi.application'
 
 TEMPLATE_DIRS = (
-    "/Siren/templates",
+    OS_Path + "/templates",
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.

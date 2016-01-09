@@ -1,7 +1,12 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.template import loader
 
 def index(request):
+    response = render(request, 'App/index.html')
+    return HttpResponse(response)
+
+def test(request):
     return HttpResponse("Test")
 
 def detail(request, arg):
