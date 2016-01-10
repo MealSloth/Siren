@@ -6,7 +6,6 @@
     <head>
         <meta charset="UTF-8">
         <title>MealSloth</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
     </head>
@@ -38,7 +37,7 @@
             <div>
                 <h3>MealSloth</h3>
                 <h5>Order from your neighbour's kitchen</h5>
-                <a href="#secondpage">Coming Soon</a>
+                <a href="#secondpage" id="siren-home__smooth-scroll">Coming Soon</a>
                 <div>
                     <a href="https://www.facebook.com/mealsloth/" target="_blank">
                         <img src="{% static 'img/social-media/facebook-ellipse-mono.png' %}" />
@@ -60,10 +59,8 @@
 
             <h4>What is MealSloth?</h4>
 
-            <div>
-                <div class="col-md-6 col-xs-12">
-                    <img src="{% static 'img/home/producer-customer-exchange.jpg' %}" alt="exchange" />
-                </div>
+            <div class="row">
+                <div class="col-md-6 col-xs-12 siren-home__section-body-1__img"></div>
                 <div class="col-md-6 col-xs-12 siren-home__section-body-1__bordered">
                     <table>
                         <tr>
@@ -85,7 +82,7 @@
 
         </section>
 
-        <section class="siren-home__section-body-2">
+        <section class="siren-home__section-body-2-desktop">
 
             <a name="thirdpage"></a>
 
@@ -94,21 +91,67 @@
                     <h4>Mission</h4>
                     <div class="col-md-offset-3 col-md-6 col-xs-offset-1 col-xs-10">
                         <table>
-                            <tr class="siren-home__section-body-2__tr-img">
+                            <tr class="siren-home__section-body-2-desktop__tr-img">
                                 <td><img src="{% static 'img/home/ellipse-money-color.png' %}" alt="save" /></td>
                                 <td><img src="{% static 'img/home/ellipse-heart-color.png' %}" alt="healthy" /></td>
                                 <td><img src="{% static 'img/home/ellipse-smartphone-color.png' %}" alt="connect" /></td>
                             </tr>
-                            <tr class="siren-home__section-body-2__tr-shc">
+                            <tr class="siren-home__section-body-2-desktop__tr-shc">
                                 <td>Save</td>
                                 <td>Healthy</td>
                                 <td>Connect</td>
                             </tr>
-                            <tr class="siren-home__section-body-2__tr-desc">
+                            <tr class="siren-home__section-body-2-desktop__tr-desc">
                                 <td>Money is an important concern for people who enjoy eating out.
                                     We are here to help you save and even earn some extra cash</td>
                                 <td>Commercially made meals are mostly unhealthy. We want to make
                                     sure you get to enjoy homemade dishes.</td>
+                                <td>There is no open platform for people to buy and sell homemade
+                                    dishes. We are here to connect you all.</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="siren-home__section-body-2-mobile">
+
+            <a name="thirdpage"></a>
+
+            <div>
+                <div>
+                    <h4>Mission</h4>
+                    <div class="col-md-offset-3 col-md-6 col-xs-offset-1 col-xs-10">
+                        <table>
+                            <tr>
+                                <td><img src="{% static 'img/home/ellipse-money-color.png' %}" alt="save" /></td>
+                            </tr>
+                            <tr class="siren-home__section-body-2-mobile__tr-shc">
+                                <td>Save</td>
+                            </tr>
+                            <tr class="siren-home__section-body-2-mobile__tr-desc">
+                                <td>Money is an important concern for people who enjoy eating out.
+                                    We are here to help you save and even earn some extra cash</td>
+                            </tr>
+                            <tr>
+                                <td><img src="{% static 'img/home/ellipse-heart-color.png' %}" alt="healthy" /></td>
+                            </tr>
+                            <tr class="siren-home__section-body-2-mobile__tr-shc">
+                                <td>Healthy</td>
+                            </tr>
+                            <tr class="siren-home__section-body-2-mobile__tr-desc">
+                                <td>Commercially made meals are mostly unhealthy. We want to make
+                                    sure you get to enjoy homemade dishes.</td>
+                            </tr>
+                            <tr>
+                                <td><img src="{% static 'img/home/ellipse-smartphone-color.png' %}" alt="connect" /></td>
+                            </tr>
+                            <tr class="siren-home__section-body-2-mobile__tr-shc">
+                                <td>Connect</td>
+                            </tr>
+                            <tr class="siren-home__section-body-2-mobile__tr-desc">
                                 <td>There is no open platform for people to buy and sell homemade
                                     dishes. We are here to connect you all.</td>
                             </tr>
@@ -124,7 +167,13 @@
             <a name="fourthpage"></a>
 
             <div>
+                <h3>How it Works</h3>
+                <div class="col-md-6 col-xs-12">
 
+                </div>
+                <div class="col-md-6 col-xs-12">
+
+                </div>
             </div>
 
         </section>

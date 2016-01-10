@@ -1,23 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa755381-9f9e-4e57-a279-ec56bdd15628" name="Default" comment="Home page progress">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/banner-food-preparation-dim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/ellipse-heart-color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/ellipse-money-color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/ellipse-smartphone-chat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/ellipse-smartphone-color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/mealsloth-logo-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/social-media/facebook-ellipse-mono.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/social-media/instagram-ellipse-mono.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/social-media/twitter-ellipse-mono.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Siren/static/img/home/heart-ellipse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Siren/static/img/home/smartphone-ellipse.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/img/home/banner-food-preparation.jpg" afterPath="$PROJECT_DIR$/Siren/static/img/home/banner-food-preparation.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/img/home/diagram-shc-ellipses.png" afterPath="$PROJECT_DIR$/Siren/static/img/home/diagram-shc-ellipses.png" />
+    <list default="true" id="fa755381-9f9e-4e57-a279-ec56bdd15628" name="Default" comment="Mobile optimization">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/banner-food-presentation-mobile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/home/overhead-stovetop-dim.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/mealsloth-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/img/taskflow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/.csscomb.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/.csslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/alerts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/background-variant.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/background-variant.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/border-radius.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/border-radius.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/buttons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/center-block.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/center-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/clearfix.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/clearfix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/gradients.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/gradients.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/grid-framework.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/hide-text.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/hide-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/image.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/labels.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/list-group.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/nav-divider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/nav-divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/nav-vertical-align.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/nav-vertical-align.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/opacity.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/opacity.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/panels.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/progress-bar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/reset-filter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/reset-filter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/resize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/resize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/responsive-visibility.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/responsive-visibility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/size.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/size.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/tab-focus.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/tab-focus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/table-row.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/table-row.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/text-emphasis.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/text-emphasis.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/text-overflow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/text-overflow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/vendor-prefixes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/mixins/vendor-prefixes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/responsive-embed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/static/css/less/bootstrap/wells.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/img/home/banner-food-preparation-dim.png" afterPath="$PROJECT_DIR$/Siren/static/img/home/banner-food-preparation-dim.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-about.css" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-about.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-about.less" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-about.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-blog.css" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-blog.less" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-blog.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-consumer.css" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-consumer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-consumer.less" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-consumer.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-contact.css" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-contact.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-contact.less" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-contact.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-home.css" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-home.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-home.less" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-home.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-producer.css" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-producer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/less/siren-producer.less" afterPath="$PROJECT_DIR$/Siren/static/css/less/siren-producer.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/static/css/style.css" afterPath="$PROJECT_DIR$/Siren/static/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
     </list>
@@ -48,8 +153,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            <state vertical-scroll-proportion="-17.083334">
+              <caret line="146" column="33" selection-start-line="146" selection-start-column="33" selection-end-line="146" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -58,8 +163,18 @@
       <file leaf-file-name="siren-home.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Siren/static/css/less/siren-home.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44117647">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.3472222">
+              <caret line="418" column="58" selection-start-line="418" selection-start-column="58" selection-end-line="418" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Siren/static/css/style.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -112,8 +227,14 @@
         <option value="$PROJECT_DIR$/templates/contact.html" />
         <option value="$PROJECT_DIR$/Siren/static/css/style.less" />
         <option value="$PROJECT_DIR$/Siren/static/css/less/siren-about.less" />
+        <option value="$PROJECT_DIR$/Siren/static/css/less/siren-blog.less" />
+        <option value="$PROJECT_DIR$/Siren/static/css/less/siren-consumer.less" />
+        <option value="$PROJECT_DIR$/Siren/static/css/less/siren-contact.less" />
+        <option value="$PROJECT_DIR$/Siren/static/css/less/siren-producer.less" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/Siren/static/css/less/siren-home.less" />
+        <option value="$PROJECT_DIR$/Siren/static/css/less/bootstrap/variables.less" />
+        <option value="$PROJECT_DIR$/Siren/static/css/less/bootstrap/dropdowns.less" />
       </list>
     </option>
   </component>
@@ -152,6 +273,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,24 +334,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templatetags" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -253,32 +357,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social-media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,35 +408,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Siren" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -720,28 +771,43 @@
       <option name="project" value="LOCAL" />
       <updated>1452376489540</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Home page progress">
+      <created>1452388965133</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1452388965133</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="App Config Tool" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2765043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="App Config Tool" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27571428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32808024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32714286" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31042296" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31495467" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32808024" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -768,7 +834,8 @@
     <MESSAGE value="Starting skeleton" />
     <MESSAGE value="Removed defunct directory" />
     <MESSAGE value="Home page progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home page progress" />
+    <MESSAGE value="Mobile optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobile optimization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -945,17 +1012,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Siren/static/img/TaskFlowXXSmall.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Siren/static/img/MealSlothBannerHiResSmall.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Siren/static/img/MealSlothBannerHiResXSmall.png">
+    <entry file="file://$PROJECT_DIR$/Siren/static/img/taskflow.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1045,49 +1102,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Siren/static/css/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11574074">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Siren/static/img/home/diagram-shc-ellipses.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Siren/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/Siren/static/css/less/bootstrap/bootstrap.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Siren/static/css/less/siren-about.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Siren/static/css/less/siren-blog.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Siren/static/css/less/siren-consumer.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Siren/static/css/less/siren-contact.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1095,29 +1117,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Siren/static/css/less/siren-producer.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Siren/static/img/home/diagram-shc-ellipses.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/Siren/static/css/less/siren-about.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Siren/static/css/less/siren-blog.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Siren/static/css/less/siren-consumer.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Siren/static/css/less/siren-contact.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Siren/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.886915">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Siren/static/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        <state vertical-scroll-proportion="-17.083334">
+          <caret line="146" column="33" selection-start-line="146" selection-start-column="33" selection-end-line="146" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Siren/static/css/less/bootstrap/dropdowns.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4582339">
+          <caret line="178" column="75" selection-start-line="178" selection-start-column="75" selection-end-line="178" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Siren/static/css/less/bootstrap/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70883054">
+          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Siren/static/css/less/siren-home.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44117647">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.3472222">
+          <caret line="418" column="58" selection-start-line="418" selection-start-column="58" selection-end-line="418" selection-end-column="58" />
           <folding />
         </state>
       </provider>
