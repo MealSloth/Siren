@@ -11,7 +11,25 @@
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
     </head>
 
-    <body>
+    <body class="siren-home__body">
+
+        <section class="siren-home__section-navbar">
+
+            <div>
+                <img src="{% static 'img/mealsloth-logo-small.png' %}" alt="mealsloth-logo" />
+                <h5>MealSloth</h5>
+                <table>
+                    <tr>
+                        <td><a href="http://www.mealsloth.com/">Home</a></td>
+                        <td><a href="http://www.mealsloth.com/">About</a></td>
+                        <td><a href="http://www.mealsloth.com/">Blog</a></td>
+                        <td><a href="http://www.mealsloth.com/">Contact</a></td>
+                        <td class="siren-home__section-navbar__td-space"></td>
+                    </tr>
+                </table>
+            </div>
+
+        </section>
 
         <section class="siren-home__section-header">
 
@@ -23,13 +41,13 @@
                 <a href="#secondpage">Coming Soon</a>
                 <div>
                     <a href="https://www.facebook.com/mealsloth/" target="_blank">
-                        <img src="{% static 'img/social-media/facebook-mono.png' %}" />
+                        <img src="{% static 'img/social-media/facebook-ellipse-mono.png' %}" />
                     </a>
                     <a href="https://www.instagram.com/mealsloth/" target="_blank">
-                        <img src="{% static 'img/social-media/instagram-mono.png' %}" />
+                        <img src="{% static 'img/social-media/instagram-ellipse-mono.png' %}" />
                     </a>
                     <a href="https://www.twitter.com/mealsloth/" target="_blank">
-                        <img src="{% static 'img/social-media/twitter-mono.png' %}" />
+                        <img src="{% static 'img/social-media/twitter-ellipse-mono.png' %}" />
                     </a>
                 </div>
             </div>
@@ -53,7 +71,7 @@
                                 <h5 class="col-md-">An app which allows you to buy and sell homemade food</h5>
                             </td>
                             <td class="siren-home__section-body-2__td-second">
-                                <img src="{% static 'img/home/smartphone-ellipse.png' %}" alt="smartphone" />
+                                <img src="{% static 'img/home/ellipse-smartphone-chat.png' %}" alt="smartphone" />
                             </td>
                         </tr>
                         <tr>
@@ -75,7 +93,26 @@
                 <div>
                     <h4>Mission</h4>
                     <div class="col-md-offset-3 col-md-6 col-xs-offset-1 col-xs-10">
-                        <img src="{% static 'img/home/diagram-shc-ellipses.png'%}" alt="save-health-connect" />
+                        <table>
+                            <tr class="siren-home__section-body-2__tr-img">
+                                <td><img src="{% static 'img/home/ellipse-money-color.png' %}" alt="save" /></td>
+                                <td><img src="{% static 'img/home/ellipse-heart-color.png' %}" alt="healthy" /></td>
+                                <td><img src="{% static 'img/home/ellipse-smartphone-color.png' %}" alt="connect" /></td>
+                            </tr>
+                            <tr class="siren-home__section-body-2__tr-shc">
+                                <td>Save</td>
+                                <td>Healthy</td>
+                                <td>Connect</td>
+                            </tr>
+                            <tr class="siren-home__section-body-2__tr-desc">
+                                <td>Money is an important concern for people who enjoy eating out.
+                                    We are here to help you save and even earn some extra cash</td>
+                                <td>Commercially made meals are mostly unhealthy. We want to make
+                                    sure you get to enjoy homemade dishes.</td>
+                                <td>There is no open platform for people to buy and sell homemade
+                                    dishes. We are here to connect you all.</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
