@@ -784,9 +784,14 @@ section.siren-home__section-body-6
 
     > div
     {
-        margin: 0 auto;
         padding: 100px 50px 100px 50px;
+        margin: 0 auto;
         width: 800px;
+
+        @media (max-width: @screen-md-min)
+        {
+            width: 100%;
+        }
 
         h3
         {
@@ -794,6 +799,8 @@ section.siren-home__section-body-6
             margin: 0 auto;
             padding: 30px;
             width: 80%;
+
+            @media (max-width: @screen-md-min) { font-size: 54px; }
         }
 
         > div
@@ -803,14 +810,27 @@ section.siren-home__section-body-6
             padding: 15px;
             width: 70%;
 
+            @media (max-width: @screen-md-min)
+            {
+                width: 100%;
+            }
+
             h4
             {
                 text-align: left;
                 color: darkred;
+
+                @media (max-width: @screen-md-min)
+                {
+                    padding: 10px 10px 30px 10px;
+                    font-size: 32px;
+                }
             }
 
             > div
             {
+                padding: 0 10px 0 10px;
+
                 table
                 {
                     width: 100%;
@@ -823,6 +843,8 @@ section.siren-home__section-body-6
                             {
                                 float: left;
                                 width: 100%;
+
+                                @media (max-width: @screen-md-min) { font-size: 18px; }
                             }
 
                             > a
@@ -833,6 +855,8 @@ section.siren-home__section-body-6
                                 text-align: center;
                                 float: right;
                                 width: 70%;
+
+                                @media (max-width: @screen-md-min) { font-size: 32px; }
                             }
 
                             > a:hover
@@ -840,6 +864,57 @@ section.siren-home__section-body-6
                                 text-decoration: none;
                                 cursor: pointer;
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.siren-home__section-footer
+{
+    background-color: rgba(25,25,25,1.0);
+    color: rgba(253,253,253,1.0);
+
+    div
+    {
+        background-color: rgba(25,25,25,1.0);
+        padding: 10px;
+        margin: 0 auto;
+
+        h6
+        {
+            padding: 0 0 0 40px;
+            font-size: 14px;
+
+            @media (max-width: @screen-md-min) { font-size: 22px; }
+        }
+
+        li
+        {
+            list-style-type: none;
+            font-size: 20px;
+        }
+
+        table
+        {
+            margin: 0 auto;
+
+            tr
+            {
+                td
+                {
+                    img
+                    {
+                        padding: 6px;
+                        height: 50px;
+                        width: 50px;
+
+                        @media (max-width: @screen-md-min)
+                        {
+                            height: 75px;
+                            width: 75px;
                         }
                     }
                 }
