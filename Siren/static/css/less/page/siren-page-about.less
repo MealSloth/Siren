@@ -1,15 +1,5 @@
 @import "../bootstrap/bootstrap";
 
-//body.siren-page-about__body {
-//    background: url("/static/img/about/overhead-bowl-corn.jpg") no-repeat fixed;
-//    background-size: 100%;
-//    height: 400px;
-//    width: 100%;
-//
-//
-//    transform: translate(0, -300px);
-//}
-
 section.siren-page-about__section-header
 {
     div
@@ -29,6 +19,9 @@ section.siren-page-about__section-header
             max-width: 100%;
             display: block;
             margin: auto;
+            right: 0;
+            left: 0;
+            top: 0;
         }
 
         h3
@@ -36,6 +29,8 @@ section.siren-page-about__section-header
             position: absolute;
             text-align: center;
             font-size: 70px;
+            right: 0;
+            left: 0;
             top: 150px;
             width: 100%;
             color: rgba(253,253,253,1.0);
@@ -45,24 +40,27 @@ section.siren-page-about__section-header
 
 section.siren-page-about__section-body1
 {
-    div
+    > div
     {
-        position: relative;
-
-        img
+        > div
         {
-            position: absolute;
-            top: 120px;
-            left: 230px;
-        }
+            > div
+            {
+                text-align: center;
 
-        h5
-        {
-            position: absolute;
-            font-size: 19px;
-            width: 37%;
-            top: 80px;
-            left: 580px;
+                img
+                {
+
+                }
+
+                h5
+                {
+                    padding: 0 150px 0 0;
+                    text-align: left;
+
+                    @media (max-width: @screen-md-min) { text-align: center; }
+                }
+            }
         }
     }
 }
