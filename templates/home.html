@@ -12,23 +12,9 @@
 
     <body class="siren-home__body">
 
-        <section class="siren-home__section-navbar">
-
-            <div>
-                <img src="{% static 'img/mealsloth-logo-small.png' %}" alt="mealsloth-logo" />
-                <h5>MealSloth</h5>
-                <table>
-                    <tr>
-                        <td><a href="./">Home</a></td>
-                        <td><a href="./about">About</a></td>
-                        <td><a href="./blog">Blog</a></td>
-                        <td><a href="./contact">Contact</a></td>
-                        <td class="siren-home__section-navbar__td-space"></td>
-                    </tr>
-                </table>
-            </div>
-
-        </section>
+        <div style="margin-top: -20px">
+            {% include './fragments/navbar.html' %}
+        </div>
 
         <section class="siren-home__section-header">
 
