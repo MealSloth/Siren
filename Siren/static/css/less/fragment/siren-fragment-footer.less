@@ -1,0 +1,53 @@
+@import "../bootstrap/bootstrap";
+
+section.siren-fragment-footer__section-footer
+{
+    background-color: rgba(25,25,25,1.0);
+    color: rgba(253,253,253,1.0);
+
+    div
+    {
+        background-color: rgba(25,25,25,1.0);
+        padding: 10px;
+        margin: 0 auto;
+
+        h6
+        {
+            padding: 0 0 0 40px;
+            font-size: 14px;
+
+            @media (max-width: @screen-md-min) { font-size: 22px; }
+        }
+
+        li
+        {
+            list-style-type: none;
+
+            @media (max-width: @screen-md-min) { font-size: 20px; }
+        }
+
+        table
+        {
+            margin: 0 auto;
+
+            tr
+            {
+                td
+                {
+                    img
+                    {
+                        padding: 6px;
+                        height: 50px;
+                        width: 50px;
+
+                        @media (max-width: @screen-md-min)
+                        {
+                            height: 75px;
+                            width: 75px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
