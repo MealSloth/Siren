@@ -1,4 +1,4 @@
-import os,sys
+import os
 os.environ['DJANGO_SETTINGS_MODULE'] = 'Siren.settings'
 
 # Google Base Engine imports.
@@ -28,6 +28,7 @@ import django.dispatch.dispatcher
 
 # Create a Django application for WSGI.
 app = django.core.handlers.wsgi.WSGIHandler()
+
 
 def main():
     util.run_wsgi_app(app)
