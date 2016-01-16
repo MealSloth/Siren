@@ -3,7 +3,6 @@
 section.siren-page-consumer__section-header
 {
     padding: 40px 0 0 0;
-    height: 500px;
     width: 100%;
 
     h3
@@ -17,6 +16,11 @@ section.siren-page-consumer__section-header
         text-align: center;
         margin: 0 auto;
         width: 40%;
+
+        @media (max-width: @screen-md-min)
+        {
+            width: 90%;
+        }
 
         img
         {
@@ -32,6 +36,7 @@ section.siren-page-consumer__section-header
 
     > div
     {
+        padding: 0 0 100px 0;
         text-align: center;
         width: 100%;
 
