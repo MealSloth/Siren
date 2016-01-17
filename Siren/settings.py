@@ -24,7 +24,11 @@ STATIC_ROOT = ''
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = ()
+STATICFILES_DIRS = (
+    PROJECT_PATH + '/static',
+    PROJECT_PATH + '/static/css',
+    PROJECT_PATH + '/static/images',
+)
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
