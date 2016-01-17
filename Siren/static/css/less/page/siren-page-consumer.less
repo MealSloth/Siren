@@ -16,6 +16,11 @@ section.siren-page-consumer__section-header
         padding: 20px 0 0 0;
         font-size: 30px;
         color: red;
+
+        @media (max-width: @screen-md-min)
+        {
+            font-size: 45px;
+        }
     }
 
 
@@ -40,6 +45,7 @@ section.siren-page-consumer__section-header
             margin: auto;
             height: auto;
             width: auto;
+
         }
     }
 
@@ -55,6 +61,11 @@ section.siren-page-consumer__section-header
         {
             height: 50px;
             width: 50px;
+            @media (max-width: @screen-md-min)
+            {
+                height: 75px;
+                width: 75px;
+            }
         }
 
         > a
@@ -63,6 +74,12 @@ section.siren-page-consumer__section-header
             border: 2px solid black;
             font-size: 16px;
             color: black;
+
+            @media (max-width: @screen-md-min)
+            {
+                font-size: 24px;
+            }
+
         }
 
         > a:hover
