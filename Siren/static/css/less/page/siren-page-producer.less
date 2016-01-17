@@ -11,7 +11,13 @@ section.siren-page-producer__section-header
         padding: 0 0 0 0;
         font-family: "Niconne Regular", serif;
         font-size: 42px;
-        width: 100%
+        width: 100%;
+
+        @media (max-width: @screen-md-min)
+        {
+
+            font-size: 78px;
+        }
     }
 
     > div.siren-page-producer__section-header__head
@@ -24,6 +30,7 @@ section.siren-page-producer__section-header
 
         @media (max-width: @screen-md-min)
         {
+            padding: 120px 0 0 0;
             width: 90%;
         }
 
@@ -36,6 +43,7 @@ section.siren-page-producer__section-header
             margin: auto;
             height: auto;
             width: auto;
+
         }
 
 

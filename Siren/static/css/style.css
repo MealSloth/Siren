@@ -7392,6 +7392,11 @@ section.siren-page-producer__section-header h3 {
   font-size: 42px;
   width: 100%;
 }
+@media (max-width: 992px) {
+  section.siren-page-producer__section-header h3 {
+    font-size: 78px;
+  }
+}
 section.siren-page-producer__section-header > div.siren-page-producer__section-header__head {
   padding: 45px 0 40px 0;
   margin: 0 auto;
@@ -7400,6 +7405,7 @@ section.siren-page-producer__section-header > div.siren-page-producer__section-h
 }
 @media (max-width: 992px) {
   section.siren-page-producer__section-header > div.siren-page-producer__section-header__head {
+    padding: 120px 0 0 0;
     width: 90%;
   }
 }
