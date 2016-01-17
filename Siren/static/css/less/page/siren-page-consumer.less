@@ -4,21 +4,34 @@ section.siren-page-consumer__section-header
 {
     padding: 40px 0 0 0;
     width: 100%;
+    @media (max-width: @screen-md-min)
+    {
+        padding: 140px 0 0 0;
+    }
+
     h3
     {
         padding: 0 0 40px 150px;
         font-size: 32px;
         font-family: "Niconne Regular";
+
+        @media (max-width: @screen-md-min)
+        {
+            padding: 20px;
+            font-size: 68px;
+        }
     }
 
     h4
     {
         padding: 20px 0 0 0;
         font-size: 30px;
-        color: red;
+        font-family: "Lobster";
+        color: darkred;
 
         @media (max-width: @screen-md-min)
         {
+            padding: 0 0 15px 0;
             font-size: 45px;
         }
     }
@@ -63,8 +76,8 @@ section.siren-page-consumer__section-header
             width: 50px;
             @media (max-width: @screen-md-min)
             {
-                height: 75px;
-                width: 75px;
+                height: 120px;
+                width: 120px;
             }
         }
 
@@ -77,7 +90,8 @@ section.siren-page-consumer__section-header
 
             @media (max-width: @screen-md-min)
             {
-                font-size: 24px;
+                padding: 30px 45px 30px 45px;
+                font-size: 48px;
             }
 
         }

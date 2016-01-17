@@ -6563,18 +6563,31 @@ section.siren-page-consumer__section-header {
   padding: 40px 0 0 0;
   width: 100%;
 }
+@media (max-width: 992px) {
+  section.siren-page-consumer__section-header {
+    padding: 140px 0 0 0;
+  }
+}
 section.siren-page-consumer__section-header h3 {
   padding: 0 0 40px 150px;
   font-size: 32px;
   font-family: "Niconne Regular";
 }
+@media (max-width: 992px) {
+  section.siren-page-consumer__section-header h3 {
+    padding: 20px;
+    font-size: 68px;
+  }
+}
 section.siren-page-consumer__section-header h4 {
   padding: 20px 0 0 0;
   font-size: 30px;
-  color: red;
+  font-family: "Lobster";
+  color: darkred;
 }
 @media (max-width: 992px) {
   section.siren-page-consumer__section-header h4 {
+    padding: 0 0 15px 0;
     font-size: 45px;
   }
 }
@@ -6608,8 +6621,8 @@ section.siren-page-consumer__section-header > div > img {
 }
 @media (max-width: 992px) {
   section.siren-page-consumer__section-header > div > img {
-    height: 75px;
-    width: 75px;
+    height: 120px;
+    width: 120px;
   }
 }
 section.siren-page-consumer__section-header > div > a {
@@ -6620,7 +6633,8 @@ section.siren-page-consumer__section-header > div > a {
 }
 @media (max-width: 992px) {
   section.siren-page-consumer__section-header > div > a {
-    font-size: 24px;
+    padding: 30px 45px 30px 45px;
+    font-size: 48px;
   }
 }
 section.siren-page-consumer__section-header > div > a:hover {
