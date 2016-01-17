@@ -18,7 +18,7 @@ def blog(request):
 
 
 def contact(request):
-    response = render(request, 'page/blog.html')
+    response = render(request, 'page/contact.html')
     return HttpResponse(response)
 
 

@@ -2,25 +2,16 @@
 
 section.siren-fragment-contact-form__section-contact-form
 {
-    margin: 0 auto;
-    width: 50%;
+    width: 100%;
 
-    > form
+    > div
     {
-        border: 1px solid black;
-        text-align: center;
-        padding: 25px;
-        width: 50%;
+        border: 1px solid rgba(120,120,120,0.9);
+        border-radius: 5px;
         margin: 0 auto;
+        padding: 15px;
+        width: 30%;
 
-        input
-        {
-            margin: 10px;
-        }
-    }
-
-    br
-    {
-        height: 0;
+        @media (max-width: @screen-md-min) { width: 90%; }
     }
 }
