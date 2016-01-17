@@ -8,10 +8,22 @@ section.siren-fragment-contact-form__section-contact-form
     {
         border: 1px solid rgba(120,120,120,0.9);
         border-radius: 5px;
-        margin: 0 auto;
+        margin: 20px auto 20px auto;
         padding: 15px;
         width: 30%;
 
-        @media (max-width: @screen-md-min) { width: 90%; }
+        @media (max-width: @screen-md-min)
+        {
+            padding: 30px;
+            width: 90%;
+        }
+
+        label
+        {
+            @media (max-width: @screen-md-min)
+            {
+                font-size: 32px;
+            }
+        }
     }
 }

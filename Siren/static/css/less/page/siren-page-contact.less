@@ -1,7 +1,6 @@
 @import "../imports";
 
-section.siren-page-contact__section-header
-{
+section.siren-page-contact__section-header {
     width: 100%;
 
     h3
@@ -14,13 +13,11 @@ section.siren-page-contact__section-header
 
         @media (max-width: @screen-md-min)
         {
-
             font-size: 78px;
         }
     }
 
-
-    > div.siren-page-contact__section-header__head
+    > div
     {
         padding: 45px 0 40px 0;
         margin: 0 auto;
@@ -36,7 +33,7 @@ section.siren-page-contact__section-header
 
         img
         {
-            background-color: rgba(253,253,253,1.0);
+            background-color: rgba(253, 253, 253, 1.0);
             max-height: 100%;
             max-width: 100%;
             display: block;
@@ -46,10 +43,12 @@ section.siren-page-contact__section-header
 
         }
     }
+}
 
-    div.siren-page-contact__section-header__left
+section.siren-page-contact__section-body-1
+{
+    div.siren-page-contact__section-body-1__left
     {
-        padding-left: 60px;
         float: left;
 
         @media (max-width: @screen-md-min)
@@ -59,9 +58,8 @@ section.siren-page-contact__section-header
         }
     }
 
-    div.siren-page-contact__section-header__right
+    div.siren-page-contact__section-body-1__right
     {
-        padding: 20px 600px 0 0;
         float: right;
 
         @media (max-width: @screen-md-min)
@@ -70,10 +68,11 @@ section.siren-page-contact__section-header
             float: none;
         }
 
-        >img
+        > img
         {
             height: 75px;
             width: 75px;
+
             @media (max-width: @screen-md-min)
             {
                 height: 120px;
