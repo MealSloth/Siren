@@ -31,7 +31,7 @@ section.siren-page-producer__section-header
         @media (max-width: @screen-md-min)
         {
             padding: 120px 0 0 0;
-            width: 90%;
+            width: 100%;
         }
 
         img
@@ -64,5 +64,15 @@ section.siren-page-producer__section-header
             font-size: 16px;
             color: white;
         }
+    }
+
+    div.siren-page-producer__mobile-only
+    {
+        @media (min-width: @screen-md-min) { display: none; }
+    }
+
+    div.siren-page-producer__desktop-only
+    {
+        @media (max-width: @screen-md-min) { display: none; }
     }
 }
