@@ -2,11 +2,83 @@
 
 section.siren-page-contact__section-header
 {
-    height: 200px;
     width: 100%;
 
-    > div
+    h3
     {
+        align: center;
+        padding: 20px 0 0 430px;
+        font-family: "Niconne Regular", serif;
+        font-size: 42px;
+        width: 100%;
 
+        @media (max-width: @screen-md-min)
+        {
+
+            font-size: 78px;
+        }
+    }
+
+
+    > div.siren-page-contact__section-header__head
+    {
+        padding: 45px 0 40px 0;
+        margin: 0 auto;
+        text-align: center;
+
+        width: 80%;
+
+        @media (max-width: @screen-md-min)
+        {
+            padding: 120px 0 0 0;
+            width: 100%;
+        }
+
+        img
+        {
+            background-color: rgba(253,253,253,1.0);
+            max-height: 100%;
+            max-width: 100%;
+            display: block;
+            margin: auto;
+            height: auto;
+            width: auto;
+
+        }
+    }
+
+    div.siren-page-contact__section-header__left
+    {
+        padding-left: 60px;
+        float: left;
+
+        @media (max-width: @screen-md-min)
+        {
+            height: 40%;
+            float: none;
+        }
+    }
+
+    div.siren-page-contact__section-header__right
+    {
+        padding: 20px 600px 0 0;
+        float: right;
+
+        @media (max-width: @screen-md-min)
+        {
+            height: 60%;
+            float: none;
+        }
+
+        >img
+        {
+            height: 75px;
+            width: 75px;
+            @media (max-width: @screen-md-min)
+            {
+                height: 120px;
+                width: 120px;
+            }
+        }
     }
 }
