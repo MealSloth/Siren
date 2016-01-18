@@ -7,8 +7,9 @@ section.siren-page-contact__section-header {
     > div
     {
         padding: 45px 0 40px 0;
-        margin: 0 auto;
         text-align: center;
+        overflow: hidden;
+        margin: 0 auto;
 
         width: 80%;
 
@@ -21,17 +22,22 @@ section.siren-page-contact__section-header {
         img
         {
             background-color: rgba(253, 253, 253, 1.0);
-            max-height: 100%;
-            max-width: 100%;
-            display: block;
-            margin: auto;
-            height: auto;
-            width: auto;
+
+            @media (min-width: @screen-md-min)
+            {
+                max-height: 100%;
+                max-width: 100%;
+                display: block;
+                margin: auto;
+                height: auto;
+                width: auto;
+            }
 
             @media (max-width: @screen-md-min)
             {
-                padding:50px 0 0 0;
-                transform:scale(2,2);
+                border: 4px solid rgba(20,20,20,0.5);
+                transform: translate(-520px, 0) rotate(180deg);
+                zoom: 200%;
             }
 
         }
