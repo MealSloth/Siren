@@ -3,19 +3,6 @@
 section.siren-page-contact__section-header {
     width: 100%;
 
-    h3
-    {
-        align: center;
-        padding: 20px 0 0 430px;
-        font-family: "Niconne Regular", serif;
-        font-size: 42px;
-        width: 100%;
-
-        @media (max-width: @screen-md-min)
-        {
-            font-size: 78px;
-        }
-    }
 
     > div
     {
@@ -47,37 +34,26 @@ section.siren-page-contact__section-header {
 
 section.siren-page-contact__section-body-1
 {
-    div.siren-page-contact__section-body-1__left
-    {
-        float: left;
 
-        @media (max-width: @screen-md-min)
-        {
-            height: 40%;
-            float: none;
-        }
+    @media (max-width: @screen-md-min)
+    {
+        padding: 40px 0 40px 0;
     }
 
-    div.siren-page-contact__section-body-1__right
+    h3
     {
-        float: right;
+        align: center;
+        padding: 40px 0 0 0;
+        font-family: "Niconne Regular", serif;
+        font-size: 52px;
+        width: 100%;
 
         @media (max-width: @screen-md-min)
         {
-            height: 60%;
-            float: none;
+            font-size: 64px;
         }
 
-        > img
-        {
-            height: 75px;
-            width: 75px;
 
-            @media (max-width: @screen-md-min)
-            {
-                height: 120px;
-                width: 120px;
-            }
-        }
+
     }
 }
