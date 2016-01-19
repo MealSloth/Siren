@@ -1,9 +1,9 @@
 import os
 
 
-PROJECT_PATH = os.path.dirname(__file__)
+PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = ['localhost', 'test.mealsloth.com', 'mealsloth.com']
@@ -24,9 +24,7 @@ STATIC_ROOT = ''
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = (
-    os.path.join(PROJECT_PATH, '../static/'),
-)
+STATICFILES_DIRS = ()
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
@@ -57,7 +55,7 @@ ROOT_URLCONF = 'Siren.urls'
 WSGI_APPLICATION = 'Siren.wsgi.application'
 
 TEMPLATE_DIRS = (
-    os.path.join(PROJECT_PATH, '../templates/'),
+    os.path.join(PROJECT_PATH, 'templates'),
 )
 
 INSTALLED_APPS = (
