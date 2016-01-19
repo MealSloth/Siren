@@ -1,4 +1,5 @@
 import os
+from collectstatic import deploy_static
 os.environ['DJANGO_SETTINGS_MODULE'] = 'Siren.settings'
 
 # Google Base Engine imports.

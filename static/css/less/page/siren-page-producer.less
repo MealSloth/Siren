@@ -7,25 +7,20 @@ section.siren-page-producer__section-header
 
     h3
     {
-        align: center;
-        padding: 0 0 0 0;
         font-family: "Niconne Regular", serif;
+        padding: 0 0 0 0;
         font-size: 60px;
+        align: center;
         width: 100%;
 
-        @media (max-width: @screen-md-min)
-        {
-
-            font-size: 78px;
-        }
+        @media (max-width: @screen-md-min) { font-size: 78px; }
     }
 
     > div.siren-page-producer__section-header__head
     {
         padding: 45px 0 40px 0;
-        margin: 0 auto;
         text-align: center;
-
+        margin: 0 auto;
         width: 80%;
 
         @media (max-width: @screen-md-min)
@@ -45,34 +40,9 @@ section.siren-page-producer__section-header
             width: auto;
 
         }
-
-
-
-
     }
 
-    >div.siren-page-producer__section-header__form
-    {
-        padding: 0 0 100px 0;
-        text-align: center;
-        width: 100%;
+    div.siren-page-producer__mobile-only { @media (min-width: @screen-md-min) { display: none; } }
 
-        >a
-        {
-            padding: 15px 20px 15px 150px;
-            background-color: darkred;
-            font-size: 16px;
-            color: white;
-        }
-    }
-
-    div.siren-page-producer__mobile-only
-    {
-        @media (min-width: @screen-md-min) { display: none; }
-    }
-
-    div.siren-page-producer__desktop-only
-    {
-        @media (max-width: @screen-md-min) { display: none; }
-    }
+    div.siren-page-producer__desktop-only { @media (max-width: @screen-md-min) { display: none; } }
 }

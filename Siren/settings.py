@@ -1,7 +1,7 @@
 import os
 
 
-PROJECT_PATH = os.path.abspath(os.path.dirname(__name__))
+PROJECT_PATH = os.path.dirname(__file__)
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -25,9 +25,7 @@ STATIC_ROOT = ''
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    PROJECT_PATH + '/static',
-    PROJECT_PATH + '/static/css',
-    PROJECT_PATH + '/static/images',
+    os.path.join(PROJECT_PATH, '../static/'),
 )
 
 STATICFILES_FINDERS = (
@@ -59,7 +57,7 @@ ROOT_URLCONF = 'Siren.urls'
 WSGI_APPLICATION = 'Siren.wsgi.application'
 
 TEMPLATE_DIRS = (
-    PROJECT_PATH + '/templates',
+    os.path.join(PROJECT_PATH, '../templates/'),
 )
 
 INSTALLED_APPS = (
