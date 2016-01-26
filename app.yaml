@@ -1,4 +1,4 @@
-application: siren-1157
+application: mealsloth-siren-ap02
 version: 1
 runtime: python27
 api_version: 1
@@ -13,15 +13,12 @@ skip_files:
 
 
 handlers:
-
 - url: /favicon\.ico
   static_files: static/images/favicon.ico
   upload: static/images/favicon\.ico
-
 - url: /static
   static_dir: static
   application_readable: true
-
 - url: /.*
   script: main.app
 
