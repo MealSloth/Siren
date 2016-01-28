@@ -21,16 +21,67 @@ section.siren-page-about__section-header
 
 section.siren-page-about__section-body-1
 {
-    background-color: rgba(200,60,90,1.0);
+    //noinspection CssUnknownTarget
+    background: url("../images/about/banner-cartoon-mealsloth-app.png") #9D2441 no-repeat;
+    background-position-x: 100px;
+    background-size: auto;
+    position: relative;
+    height: 429px;
+
+    > div
+    {
+        color: rgba(253,253,253,1.0);
+        position: absolute;
+        padding: 20px;
+        width: 50%;
+        right: 0;
+
+        > div
+        {
+            background-color: rgba(200,80,120,1.0);
+        padding: 20px 50px 20px 50px;
+
+            > h2
+            {
+                text-align: center;
+            }
+
+            > div
+            {
+                border: 4px solid rgba(253,253,253,1.0);
+                padding: 30px 15px 30px 15px;
+
+                h5
+                {
+
+                }
+            }
+        }
+    }
+}
+
+section.siren-page-about__section-body-2
+{
+    background-color: rgba(253,253,253,1.0);
     width: 100%;
 
     > div:first-child
     {
-        width: 60%;
+        width: 30%;
+    }
+
+    > div:nth-child(2)
+    {
+        width: 40%;
+
+        img
+        {
+
+        }
     }
 
     > div:last-child
     {
-        width: 40%;
+        width: 30%;
     }
 }
