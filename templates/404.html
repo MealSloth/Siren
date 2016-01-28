@@ -10,11 +10,43 @@
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
     </head>
 
-    <body>
+    <body class="siren-404__body">
 
         {% include './fragment/navbar.html' %}
 
-        <section class="siren-404__section-header">
+        <section class="siren-404__section-header siren-404__section-padding">
+
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <img src="{% static 'images/mealsloth-logo-medium.png' %}" />
+                        </td>
+                        <td>
+                            <h3>404 - Page not found</h3>
+                        </td>
+                    </tr>
+                </table>
+                <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+            </div>
+
+        </section>
+
+        <section class="siren-404__section-body-1 siren-404__section-padding">
+
+            <div>
+                <p>Please try the following:</p>
+                <ul>
+                    <li>If you typed the page address in the Address bar, make sure that it is spelled correctly.</li>
+                    <li>Open the <a href="http://test.mealsloth.com/">MealSloth</a> home page, and then look for links to the information you want.</li>
+                    <li>Click the <a href="http://test.mealsloth.com/">Back</a> button to try another link.</li>
+                    <li>Click <a href="https://www.google.com/">Search</a> to look for information on the internet.</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="siren-404__section-superfooter siren-404__section-padding">
 
             <div>
 
