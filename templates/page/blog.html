@@ -2,6 +2,8 @@
 <html lang="en">
 
     {% load staticfiles %}
+    {% load tags %}
+    {% load tags_blog %}
 
     <head>
         <meta charset="UTF-8">
@@ -13,6 +15,79 @@
     <body>
 
         {% include './fragment/navbar.html' %}
+
+        <section class="siren-page-blog__section-body">
+
+            <div>
+                {% for blog_post in blog_post_list %}
+                <table>
+                    <tr>
+                        <td>
+                            <h3>{% entry_for_key blog_post 'title' %}</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>{% post_time_for_blog_post blog_post %} | {% author_for_blog_post blog_post %}</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>{% entry_for_key blog_post 'short_description' %}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>{% entry_for_key blog_post 'long_description' %}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a>Read More</a>
+                        </td>
+                    </tr>
+                </table>
+                {% endfor %}
+            </div>
+
+            <div>
+                <div>
+                    <h4>Featured Posts</h4>
+                    <table>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <h4>Recent Posts</h4>
+                    <table>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <h4>Archive</h4>
+                    <table>
+                        <tr>
+                            <td>January 2016 (1)</td>
+                        </tr>
+                    </table>
+                    <h4>Search By Tags</h4>
+                    <table>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <h4>Follow Us</h4>
+                    <table>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+
+        {% include './fragment/footer.html' %}
 
     </body>
 

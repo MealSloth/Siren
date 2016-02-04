@@ -4,6 +4,7 @@ from django.shortcuts import render
 from django.core.urlresolvers import reverse
 from form.contact.form_contact_email import ContactEmailForm
 from form.contact.form_contact import ContactForm
+from models import BlogPost
 
 
 def home(request):
@@ -33,7 +34,8 @@ def about(request):
 
 
 def blog(request):
-    response = render(request, 'page/blog.html')
+    blog_post_list = list(BlogPost.objects.order_by('post_time').all().values())
+    response = render(request, 'page/blog.html', Context({'blog_post_list': blog_post_list}))
     return HttpResponse(response)
 
 
