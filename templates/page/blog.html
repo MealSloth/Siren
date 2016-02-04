@@ -23,7 +23,7 @@
                 <table>
                     <tr>
                         <td>
-                            <h3>{% entry_for_key blog_post 'title' %}</h3>
+                            <h3><a href="/blog-post/{% entry_for_key blog_post 'id' %}">{% entry_for_key blog_post 'title' %}</a></h3>
                         </td>
                     </tr>
                     <tr>
@@ -33,7 +33,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <img src="{% static 'images/mealsloth-logo.png' %}"/>
+                            <a href="/blog-post/{% entry_for_key blog_post 'id' %}"><img src="{% static 'images/mealsloth-logo.png' %}"/></a>
                         </td>
                     </tr>
                     <tr>
@@ -43,7 +43,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <a>Read More</a>
+                            <a href="/blog-post/{% entry_for_key blog_post 'id' %}">Read More</a>
                         </td>
                     </tr>
                 </table>
