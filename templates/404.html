@@ -38,9 +38,13 @@
                 <p>Please try the following:</p>
                 <ul>
                     <li>If you typed the page address in the Address bar, make sure that it is spelled correctly.</li>
-                    <li>Open the <a href="http://test.mealsloth.com/">MealSloth</a> home page, and then look for links to the information you want.</li>
-                    <li>Click the <a href="http://test.mealsloth.com/">Back</a> button to try another link.</li>
-                    <li>Click <a href="https://www.google.com/">Search</a> to look for information on the internet.</li>
+                    <li>Open the <a href="/">MealSloth</a> home page, and then look for links to the information you want.</li>
+                    <li>Click the <a onclick="goBack()">Back</a> button to try another link.</li>
+                    <script>
+                        function goBack() {
+                            window.history.back();
+                        }
+                    </script>
                 </ul>
             </div>
 
