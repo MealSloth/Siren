@@ -4,6 +4,18 @@ div.siren-page-about__desktop-only { @media (max-width: @screen-md-min) { displa
 
 div.siren-page-about__mobile-only { @media (min-width: @screen-md-min) { display: none; } }
 
+section.siren-page-about__section-arrow
+{
+    background-color: rgba(253,253,253,1.0);
+    text-align: center;
+
+    img
+    {
+        height: 96px;
+        width: 96px;
+    }
+}
+
 section.siren-page-about__section-header
 {
     background-color: rgba(253,253,253,1.0);
@@ -15,9 +27,11 @@ section.siren-page-about__section-header
     {
         h2
         {
+            font-family: "Spinnaker Regular", Spinnaker, sans-serif;
+            color: rgba(0,0,0,1.0);
             letter-spacing: 15px;
             text-align: center;
-            font-size: 72px;
+            font-size: 86px;
         }
     }
 }
@@ -56,6 +70,7 @@ section.siren-page-about__section-body-1
 
             > div:last-child
             {
+                font-family: "Spinnaker Regular", Spinnaker, sans-serif;
                 position: absolute;
                 padding: 30px;
                 height: 450px;
@@ -87,8 +102,10 @@ section.siren-page-about__section-body-1
                     {
                         font-size: 26px;
 
-                        @media (max-width: @screen-md-min) { font-size: 23px; }
+                        @media (max-width: @screen-md-min) { font-size: 28px; }
                     }
+
+                    br { @media(max-width: @screen-md-min) { display: none; } }
                 }
             }
         }
@@ -99,7 +116,7 @@ section.siren-page-about__section-body-1
 section.siren-page-about__section-body-2
 {
     background-color: rgba(253,253,253,1.0);
-    padding: 80px 0 80px 0;
+    padding: 30px 0 30px 0;
     width: 100%;
 
     > div
@@ -112,6 +129,7 @@ section.siren-page-about__section-body-2
             {
                 border: 3px solid rgba(166,12,12,1.0);
                 padding: 40px 10px 10px 10px;
+                height: 320px;
 
                 h3
                 {
@@ -126,12 +144,13 @@ section.siren-page-about__section-body-2
 
                     a
                     {
+                        font-family: "Times New Roman", serif;
                         border: 3px solid rgba(166,12,12,1.0);
                         padding: 5px 30px 5px 30px;
                         color: rgba(166,12,12,1.0);
+                        font-weight: bolder;
                         border-radius: 5px;
                         text-align: center;
-                        font-weight: bold;
                         font-size: 18px;
 
                         @media (max-width: @screen-md-min)
@@ -412,7 +431,7 @@ section.siren-page-about__section-body-5
                     font-size: 18px;
                     padding: 6px;
                     float: left;
-                    width: 50%;
+                    width: 55%;
 
                     @media (max-width: @screen-md-min)
                     {
@@ -429,7 +448,7 @@ section.siren-page-about__section-body-5
                     font-size: 15px;
                     border: none;
                     clear: left;
-                    width: 45%;
+                    width: 40%;
 
                     @media (max-width: @screen-md-min) { font-size: 36px; }
                 }
