@@ -7,7 +7,6 @@ section.siren-page-blog__section-body
 
     > div:first-child
     {
-        border: 1px solid black;
         text-align: left;
         float: left;
         width: 66%;
@@ -23,6 +22,8 @@ section.siren-page-blog__section-body
             {
                 td
                 {
+                    padding: 0 10px 0 10px;
+
                     h3
                     {
                         font-weight: bolder;
@@ -30,23 +31,45 @@ section.siren-page-blog__section-body
 
                     h5
                     {
+                        color: rgba(130,130,130,1.0);
+                    }
 
+                    img
+                    {
+                        padding: 10px 0 20px 0;
+                        max-height: 100%;
+                        max-width: 100%;
                     }
 
                     p
                     {
 
                     }
-
-                    a
-                    {
-                        text-align: center;
-                    }
                 }
             }
 
-            tr:last-of-type td
+            tr:last-of-type
             {
+                td
+                {
+                    text-align: center;
+                    padding: 20px;
+
+                    a
+                    {
+                        border: 2px solid rgba(10,10,10,1.0);
+                        padding: 4px 30px 4px 30px;
+                        color: rgba(20,20,20,1.0);
+                        font-size: 15px;
+                    }
+
+                    a:hover
+                    {
+                        color: rgba(70,70,70,1.0);
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+                }
 
             }
         }
@@ -75,15 +98,42 @@ section.siren-page-blog__section-body
                 min-height: 200px;
             }
 
-            table:nth-of-type(2)
+            > div
             {
-                min-height: 100px;
+                overflow: auto;
+                width: 100%;
 
-                tr
+                > div:first-of-type
                 {
-                    td
-                    {
+                    float: left;
+                    width: 30%;
 
+                    > img
+                    {
+                        max-height: 100%;
+                        max-width: 100%;
+                    }
+                }
+
+                > div:last-of-type
+                {
+                    float: right;
+                    width: 65%;
+
+                    > div:first-of-type
+                    {
+                        h4
+                        {
+
+                        }
+                    }
+
+                    > div:last-of-type
+                    {
+                        p
+                        {
+
+                        }
                     }
                 }
             }

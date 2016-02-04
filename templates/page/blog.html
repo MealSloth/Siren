@@ -33,12 +33,12 @@
                     </tr>
                     <tr>
                         <td>
-                            <p>{% entry_for_key blog_post 'short_description' %}</p>
+                            <img src="{% static 'images/mealsloth-logo.png' %}"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>{% entry_for_key blog_post 'long_description' %}</p>
+                            <p>{% entry_for_key blog_post 'short_description' %}</p>
                         </td>
                     </tr>
                     <tr>
@@ -59,11 +59,21 @@
                         </tr>
                     </table>
                     <h4>Recent Posts</h4>
-                    <table>
-                        <tr>
-                            <td></td>
-                        </tr>
-                    </table>
+                    {% for blog_post in blog_post_list %}
+                    <div>
+                        <div>
+                            <img src="{% static 'images/mealsloth-logo-medium.png' %}" />
+                        </div>
+                        <div>
+                            <div>
+                                <h4></h4>
+                            </div>
+                            <div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
                     <h4>Archive</h4>
                     <table>
                         <tr>
