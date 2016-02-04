@@ -76,3 +76,6 @@ def producer(request):
         response = render(request, 'page/producer.html', Context({'form': ContactForm()}))
         return HttpResponse(response)
 
+
+def blog_post(request):
+    pass

@@ -65,12 +65,8 @@
                             <img src="{% static 'images/mealsloth-logo-medium.png' %}" />
                         </div>
                         <div>
-                            <div>
-                                <h4></h4>
-                            </div>
-                            <div>
-                                <p></p>
-                            </div>
+                            <h4><a href="/blog-post/{% entry_for_key blog_post 'id' %}">{% entry_for_key blog_post 'title' %}</a></h4>
+                            <p>{% post_time_for_blog_post blog_post %}</p>
                         </div>
                     </div>
                     {% endfor %}
