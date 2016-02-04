@@ -46,12 +46,24 @@ section.siren-fragment-navbar__section-navbar
             right: 0;
             top: 0;
 
+            @media (max-width: @screen-md-min)
+            {
+                table-layout: fixed;
+                width: 93%;
+            }
+
             tr
             {
                 td
                 {
                     padding: 8px 16px 0 16px;
                     vertical-align: middle;
+
+                    @media (max-width: @screen-md-min)
+                    {
+                        text-align: center;
+                        width: 33%;
+                    }
 
                     a
                     {

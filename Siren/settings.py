@@ -6,6 +6,27 @@ PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
+if os.getenv('SERVER_SOFTWARE', '').startswith('Google App Engine'):
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'HOST': '/cloudsql/mealsloth-chimera-ap01:mealsloth-chimera-ap01-cloudsqlg1-in02',
+            'NAME': 'siren_prod01',
+            'USER': 'root',
+        }
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'HOST': '173.194.108.241',
+            'NAME': 'siren_prod01',
+            'USER': 'generic',
+            'PASSWORD': 'ZtuQGCRWhWpaLtV6e93kD59uWjjC8r',
+        }
+    }
+
+
 ALLOWED_HOSTS = ['localhost', 'test.mealsloth.com', 'mealsloth.com']
 
 TIME_ZONE = 'America/Chicago'

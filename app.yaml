@@ -26,3 +26,5 @@ handlers:
 libraries:
 - name: django
   version: "latest"
+- name: MySQLdb
+  version: "latest"

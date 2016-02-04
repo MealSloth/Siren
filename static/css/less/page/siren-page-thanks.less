@@ -1,0 +1,118 @@
+@import "../imports";
+
+section.siren-page-thanks__section-header
+{
+    background-color: rgba(253,253,253,1.0);
+    padding: 80px;
+    width: 100%;
+
+    @media (max-width: @screen-md-min)
+    {
+        padding: 150px 80px 80px 80px;
+    }
+
+    > div
+    {
+        border: 3px solid rgba(166,12,12,0.9);
+        padding: 0 0 130px 0;
+        font-weight: bolder;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        width: 55%;
+
+        @media (max-width: @screen-md-min) { width: 100%; }
+
+        h1
+        {
+            color: rgba(0,0,0,1.0);
+            padding: 0 0 10px 0;
+            text-align: center;
+            font-size: 48px;
+
+            @media (max-width: @screen-md-min) { font-size: 72px; }
+        }
+
+        > div
+        {
+            > div
+            {
+                h4 { @media (max-width: @screen-md-min) { font-size: 28px; } }
+
+                div
+                {
+                    h3
+                    {
+                        padding: 5px 5px 15px 5px;
+                    }
+
+                    a
+                    {
+                        h3
+                        {
+                            font-size: 18px;
+                        }
+                    }
+                }
+
+                div:last-of-type
+                {
+                    margin: 0 auto;
+                    padding: 15px;
+
+                    table
+                    {
+                        background-color: rgba(230,230,230,1.0);
+                        border-radius: 5px;
+                        margin: 0 auto;
+                        padding: 10px;
+
+                        tr
+                        {
+                            td
+                            {
+                                padding: 10px;
+
+                                @media (max-width: @screen-md-min) { padding: 20px; }
+
+                                img
+                                {
+                                    height: 40px;
+                                    width: 40px;
+
+                                    @media (max-width: @screen-md-min)
+                                    {
+                                        height: 80px;
+                                        width: 80px;
+                                    }
+                                }
+                            }
+
+                            td:first-child
+                            {
+                                padding: 10px 10px 10px 20px;
+
+                                @media (max-width: @screen-md-min) { padding: 20px 20px 20px 40px; }
+                            }
+
+                            td:last-child
+                            {
+                                padding: 10px 20px 10px 10px;
+
+                                @media (max-width: @screen-md-min) { padding: 20px 40px 20px 20px; }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        > div:last-of-type
+        {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            bottom: 0;
+        }
+    }
+}

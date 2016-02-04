@@ -7,10 +7,10 @@ section.siren-fragment-contact-form__section-contact-form
     > div
     {
         border: 1px solid rgba(120,120,120,0.9);
-        border-radius: 5px;
         margin: 20px auto 20px auto;
+        border-radius: 5px;
         padding: 15px;
-        width: 30%;
+        width: 33%;
 
         @media (max-width: @screen-md-min)
         {
@@ -18,8 +18,54 @@ section.siren-fragment-contact-form__section-contact-form
             width: 90%;
         }
 
-        label { @media (max-width: @screen-md-min) { font-size: 32px; } }
+        > form
+        {
+            table
+            {
+                width: 100%;
 
-        button { @media (max-width: @screen-md-min) { font-size: 40px; } }
+                tr
+                {
+                    td:first-child
+                    {
+                        > label
+                        {
+                            font-size: 16px;
+                        }
+                    }
+
+                    td:last-child
+                    {
+                        padding: 4px 0 4px 0;
+
+                        > input[type=text]
+                        {
+                            font-size: 20px;
+                            padding: 2px;
+                            width: 100%;
+                        }
+
+                        > input[type=submit]
+                        {
+                            background-color: rgba(166,12,12,1.0);
+                            border: 1px solid rgba(100,8,8,1.0);
+                            color: rgba(253,253,253,1.0);
+                            padding: 8px 20px 8px 20px;
+                            border-radius: 4px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+                tr:last-child
+                {
+                    >td
+                    {
+                        text-align: right;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
     }
 }
