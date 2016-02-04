@@ -50,60 +50,7 @@
                 {% endfor %}
             </div>
 
-            <div>
-                <div>
-                    <h4>Featured Posts</h4>
-                    <table>
-                        <tr>
-                            <td></td>
-                        </tr>
-                    </table>
-                    <h4>Recent Posts</h4>
-                    {% for blog_post in blog_post_list %}
-                    <div>
-                        <div>
-                            <img src="{% static 'images/mealsloth-logo-medium.png' %}" />
-                        </div>
-                        <div>
-                            <h4><a href="/blog-post/{% entry_for_key blog_post 'id' %}">{% entry_for_key blog_post 'title' %}</a></h4>
-                            <p>{% post_time_for_blog_post blog_post %}</p>
-                        </div>
-                    </div>
-                    {% endfor %}
-                    <h4>Archive</h4>
-                    <table>
-                        <tr>
-                            <td>January 2016 (1)</td>
-                        </tr>
-                    </table>
-                    <h4>Search By Tags</h4>
-                    <table>
-                        <tr>
-                            <td></td>
-                        </tr>
-                    </table>
-                    <h4>Follow Us</h4>
-                    <table>
-                        <tr>
-                            <td>
-                                <a href="https://facebook.com/mealsloth" target="_blank">
-                                    <img src="{% static 'images/social-media/facebook-mono-color.png' %}"/>
-                                </a>
-                            </td>
-                            <td>
-                                <a href="https://twitter.com/mealsloth" target="_blank">
-                                    <img src="{% static 'images/social-media/twitter-mono-color.png' %}"/>
-                                </a>
-                            </td>
-                            <td>
-                                <a href="https://instagram.com/mealsloth" target="_blank">
-                                    <img src="{% static 'images/social-media/instagram-mono-color.png' %}"/>
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
+            {% include './fragment/blog-sidebar.html' with blog_post=blog_post %}
 
         </section>
 
