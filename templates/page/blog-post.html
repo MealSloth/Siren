@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {% load staticfiles %}
+    {% load tags %}
+    {% load tags_blog %}
+
+    <head>
+        <meta charset="UTF-8">
+        <title>MealSloth</title>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+    </head>
+
+    <body>
+
+        {% include './fragment/navbar.html' %}
+
+        <section class="siren-page-blog-post__section-body">
+
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <h3>{% entry_for_key blog_post 'title' %}</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>{% post_time_for_blog_post blog_post %} | {% author_for_blog_post blog_post %}</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="{% static 'images/mealsloth-logo.png' %}"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>{% entry_for_key blog_post 'short_description' %}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a>Read More</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            {% include './fragment/blog-sidebar.html' with blog_post=blog_post %}
+
+        </section>
+
+        {% include './fragment/footer.html' %}
+
+    </body>
+
+</html>
