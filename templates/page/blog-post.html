@@ -42,8 +42,9 @@
                     </tr>
                 </table>
             </div>
-
-            {% include './fragment/blog-sidebar.html' with blog_post=blog_post %}
+            <div class="siren-page-blog-post__desktop-only">
+                {% include './fragment/blog-sidebar.html' %}
+            </div>
 
         </section>
 
