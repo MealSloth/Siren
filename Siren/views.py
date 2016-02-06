@@ -79,6 +79,6 @@ def producer(request):
 
 def blog_post(request, blog_post_id):
     current_blog_post = BlogPost.objects.filter(id=blog_post_id).values()[0]
-    blog_post_list = list(BlogPost.objects.order_by('post_time').all().values())
+    blog_post_list = list(BlogPost.objects.order_by('-post_time').all().values())
     response = render(request, 'page/blog-post.html', Context({'blog_post': current_blog_post, 'blog_post_list': blog_post_list}))
     return HttpResponse(response)
