@@ -1,16 +1,15 @@
 @import "../imports";
 
-section.siren-fragment-navbar__section-navbar
+section.siren-fragment-navbar__section-navbar__desktop-only
 {
     border-bottom: 2px solid rgba(50,50,50,0.4);
     background-color: rgba(255,255,255,0.94);
     position: fixed;
+    z-index: 100;
     height: 45px;
     width: 100%;
 
-    z-index: 100;
-
-    @media (max-width: @screen-md-min) { height: 120px; }
+    @media (max-width: @screen-md-min) { display: none; }
 
     > div
     {
@@ -87,6 +86,96 @@ section.siren-fragment-navbar__section-navbar
                     width: 120px;
                 }
             }
+        }
+    }
+}
+
+section.siren-fragment-navbar__section-navbar__mobile-only
+{
+
+    border-bottom: 2px solid rgba(50,50,50,0.4);
+    background-color: rgba(255,255,255,0.94);
+    position: fixed;
+    overflow: auto;
+    padding: 10px;
+    z-index: 100;
+    width: 100%;
+
+    @media (min-width: @screen-md-min) { display: none; }
+
+    > div:first-of-type
+    {
+        float: left;
+
+        table
+        {
+            tr
+            {
+                td:first-of-type
+                {
+                    img
+                    {
+                        padding: 0 0 0 40px;
+                        z-index: 5;
+                    }
+                }
+
+                td:last-of-type
+                {
+                    a
+                    {
+                        h5
+                        {
+                            font-family: Tahoma, sans-serif;
+                            color: rgba(150, 150, 150, 0.9);
+                            padding: 0 0 0 20px;
+                            font-size: 64px;
+                            z-index: 4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    > button
+    {
+        border: 4px solid rgba(150,150,150,0.9);
+        border-radius: 20px;
+        float: right;
+
+        span
+        {
+            font-size: 75px;
+            padding: 15px;
+        }
+    }
+
+    > div:last-of-type
+    {
+        clear: both;
+
+        ul
+        {
+            list-style-type: none;
+
+            li
+            {
+                border-top: 1px solid rgba(30,30,30,1.0);
+                padding: 10px 30px 10px 10px;
+                list-style-type: none;
+                text-align: right;
+
+                a, a:hover
+                {
+                    font-family: Tahoma, sans-serif;
+                    color: rgba(30,30,30,1.0);
+                    text-decoration: none;
+                    font-size: 54px;
+                }
+            }
+
+            li:first-of-type { border: none; }
         }
     }
 }
