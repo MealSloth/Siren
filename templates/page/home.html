@@ -11,7 +11,7 @@
         <script src="{% static 'js/bootstrap.min.js' %}" type="text/javascript"></script>
     </head>
 
-    <body class="siren-page-home__body">
+    <body>
 
         {% include './fragment/navbar.html' %}
 
@@ -38,32 +38,55 @@
 
         </section>
 
-        <section class="siren-page-home__section-body-1">
+        <section class="siren-page-home__section-body-1 siren-page-home__desktop-only">
 
             <a name="secondpage"></a>
 
             <h4>What is MealSloth?</h4>
 
-            <div class="row">
-                <div class="col-md-6 col-xs-12 siren-page-home__section-body-1__img"></div>
-                <div class="col-md-6 col-xs-12 siren-page-home__section-body-1__bordered">
-                    <table>
-                        <tr>
-                            <td class="siren-page-home__section-body-2__td-first">
-                                <h5 class="col-md-">An app which allows you to buy and sell homemade food</h5>
-                            </td>
-                            <td class="siren-page-home__section-body-2__td-second">
-                                <img src="{% static 'images/home/ellipse-smartphone-chat.png' %}" alt="smartphone" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><p>MealSloth connects foodies and cooking enthusiasts to promote superior
-                            quality home cooked meals to everyone. With MealSloth, anyone can be
-                            a chef, and everyone has access to fresh homemade food!</p></td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
+            <table>
+                <tr>
+                    <td>
+                        <img src="{% static 'images/home/producer-customer-exchange.jpg' %}" />
+                    </td>
+                    <td>
+                        <div>
+                            <h5>An app which allows you to buy and sell homemade food</h5>
+                            <img src="{% static 'images/home/ellipse-smartphone-chat.png' %}" alt="smartphone"/>
+                            <p>MealSloth connects foodies and cooking enthusiasts to promote superior
+                                quality home cooked meals to everyone. With MealSloth, anyone can be
+                                a chef, and everyone has access to fresh homemade food!</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+        </section>
+
+        <section class="siren-page-home__section-body-1 siren-page-home__mobile-only">
+
+            <a name="secondpage"></a>
+
+            <h4>What is MealSloth?</h4>
+
+            <table>
+                <tr>
+                    <td>
+                        <img src="{% static 'images/home/producer-customer-exchange.jpg' %}" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <h5>An app which allows you to buy and sell homemade food</h5>
+                            <img src="{% static 'images/home/ellipse-smartphone-chat.png' %}" alt="smartphone"/>
+                            <p>MealSloth connects foodies and cooking enthusiasts to promote superior
+                                quality home cooked meals to everyone. With MealSloth, anyone can be
+                                a chef, and everyone has access to fresh homemade food!</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
 
         </section>
 
