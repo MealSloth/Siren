@@ -8,8 +8,8 @@ section.siren-page-home__section-header
 {
     //noinspection CssUnknownTarget
     background: url("../images/home/banner-food-preparation-dim.png") no-repeat fixed;
-    background-size: 100%;
     color: rgba(253,253,253,1.0);
+    background-size: 100%;
     text-align: center;
     padding: 10px;
     height: 600px;
@@ -438,6 +438,12 @@ section.siren-page-home__section-body-3
     height: 590px;
     color: black;
     width: 100%;
+
+    @media (max-width: @screen-md-min)
+    {
+        padding: 100px 0 100px 0;
+        height: 790px;
+    }
 
     > div
     {
