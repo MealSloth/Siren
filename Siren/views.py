@@ -88,3 +88,8 @@ def blog_post(request, blog_post_id):
         'blog_post': current_blog_post, 'blog_post_list': blog_post_list,
     }))
     return HttpResponse(response)
+
+
+def faq(request):
+    response = render(request, 'page/faq.html')
+    return HttpResponse(response)

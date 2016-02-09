@@ -1,0 +1,110 @@
+@import "../imports";
+
+section.siren-page-faq__section-header
+{
+    background-color: rgba(253,253,253,0.9);
+    padding: 20px;
+
+    @media (max-width: @screen-md-min) { padding: 60px; }
+}
+
+section.siren-page-faq__section-body-1
+{
+    padding: 10px;
+
+    > div
+    {
+        margin: 0 auto;
+        width: 70%;
+
+        @media (max-width: @screen-md-min) { width: 90%; }
+
+        h3
+        {
+            padding: 20px 20px 20px 10px;
+            color: rgba(166,12,12,1.0);
+            font-size: 32px;
+
+            @media (max-width: @screen-md-min)
+            {
+                padding: 30px 30px 30px 20px;
+                font-size: 44px;
+            }
+        }
+
+        > a, > a:hover, > a:active, > a:link, >  a:visited
+        {
+            text-decoration: none;
+            cursor: pointer;
+            display: block;
+            width: 100%;
+
+            > span
+            {
+                font-family: "Arial Black", Arial, sans-serif;
+                color: rgba(30,30,30,1.0);
+                font-weight: bolder;
+                font-size: 24px;
+                padding: 15px;
+
+                @media (max-width: @screen-md-min)
+                {
+                    font-size: 36px;
+                    padding: 24px;
+                }
+
+                > span { @media (max-width: @screen-md-min) { zoom: 4; } }
+            }
+        }
+
+        > div
+        {
+            padding: 5px 5px 5px 30px;
+            width: 100%;
+
+            @media (max-width: @screen-md-min) { padding: 8px 8px 8px 40px; }
+
+            p
+            {
+                font-family: Arial, sans-serif;
+                color: rgba(10,10,10,1.0);
+                font-size: 18px;
+
+                @media (max-width: @screen-md-min) { font-size: 36px; }
+            }
+
+            td
+            {
+                padding: 4px;
+
+                @media (max-width: @screen-md-min) { padding: 6px; }
+
+                img
+                {
+                    height: 20px;
+                    width: 20px;
+
+                    @media (max-width: @screen-md-min)
+                    {
+                        height: 39px;
+                        width: 39px;
+                    }
+                }
+            }
+        }
+
+        div.siren-page-faq__section-divider
+        {
+            background-color: rgba(150,150,150,1.0);
+            margin: 15px 0 15px 0;
+            padding: 1px;
+            width: 100%;
+
+            @media (max-width: @screen-md-min)
+            {
+                margin: 20px 0 20px 0;
+                padding: 2px;
+            }
+        }
+    }
+}
