@@ -456,16 +456,26 @@ section.siren-page-home__section-body-3
         padding: 30px;
         width: 910px;
 
+        @media (max-width: @screen-md-min) { width: 100%; }
+
         > div
         {
             background-color: rgba(25,25,25,1.0);
             border-radius: 5px;
             padding: 10px;
 
+            @media (max-width: @screen-md-min) { width: 100%; }
+
             > iframe
             {
                 height: 470px;
                 width: 820px;
+
+                @media (max-width: @screen-md-min)
+                {
+                    height: 500px;
+                    width: 100%;
+                }
             }
         }
     }

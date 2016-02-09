@@ -14,9 +14,9 @@ def home(request):
             contact_email_id = form.process()
             url = reverse('thanks', args=['email', contact_email_id])
             return HttpResponseRedirect(url)
-    else:
-        response = render(request, 'page/home.html', Context({'form': ContactEmailForm}))
-        return HttpResponse(response)
+
+    response = render(request, 'page/home.html', Context({'form': ContactEmailForm}))
+    return HttpResponse(response)
 
 
 def about(request):
@@ -28,9 +28,9 @@ def about(request):
             return HttpResponseRedirect(url)
         else:
             return HttpResponseRedirect('/')
-    else:
-        response = render(request, 'page/about.html', Context({'form': ContactEmailForm()}))
-        return HttpResponse(response)
+
+    response = render(request, 'page/about.html', Context({'form': ContactEmailForm()}))
+    return HttpResponse(response)
 
 
 def blog(request):
@@ -48,9 +48,9 @@ def contact(request):
             return HttpResponseRedirect(url)
         else:
             return HttpResponseRedirect('/')
-    else:
-        response = render(request, 'page/contact.html', Context({'form': ContactForm()}))
-        return HttpResponse(response)
+
+    response = render(request, 'page/contact.html', Context({'form': ContactForm()}))
+    return HttpResponse(response)
 
 
 def thanks(request, thank_type, unique_id):
@@ -72,13 +72,15 @@ def producer(request):
             return HttpResponseRedirect(url)
         else:
             return HttpResponseRedirect('/')
-    else:
-        response = render(request, 'page/producer.html', Context({'form': ContactForm()}))
-        return HttpResponse(response)
+
+    response = render(request, 'page/producer.html', Context({'form': ContactForm()}))
+    return HttpResponse(response)
 
 
 def blog_post(request, blog_post_id):
     current_blog_post = BlogPost.objects.filter(id=blog_post_id).values()[0]
     blog_post_list = list(BlogPost.objects.order_by('-post_time').all().values())
-    response = render(request, 'page/blog-post.html', Context({'blog_post': current_blog_post, 'blog_post_list': blog_post_list}))
+    response = render(request, 'page/blog-post.html', Context({
+        'blog_post': current_blog_post, 'blog_post_list': blog_post_list,
+    }))
     return HttpResponse(response)
