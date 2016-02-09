@@ -8,18 +8,7 @@ from models import BlogPost
 
 
 def home(request):
-    if request.method == 'POST':
-        form = ContactEmailForm(request.POST)
-        if form.is_valid():
-            contact_email_id = form.process()
-            url = reverse('thanks', args=['email', contact_email_id])
-            return HttpResponseRedirect(url)
-
-    response = render(request, 'page/home.html', Context({'form': ContactEmailForm}))
-    return HttpResponse(response)
-
-
-def about(request):
+    warning = ''
     if request.method == 'POST':
         form = ContactEmailForm(request.POST)
         if form.is_valid():
@@ -27,9 +16,24 @@ def about(request):
             url = reverse('thanks', args=['email', contact_email_id])
             return HttpResponseRedirect(url)
         else:
-            return HttpResponseRedirect('/')
+            warning = 'Invalid Email'
 
-    response = render(request, 'page/about.html', Context({'form': ContactEmailForm()}))
+    response = render(request, 'page/home.html', Context({'form': ContactEmailForm, 'warning': warning, }))
+    return HttpResponse(response)
+
+
+def about(request):
+    warning = ''
+    if request.method == 'POST':
+        form = ContactEmailForm(request.POST)
+        if form.is_valid():
+            contact_email_id = form.process()
+            url = reverse('thanks', args=['email', contact_email_id])
+            return HttpResponseRedirect(url)
+        else:
+            warning = 'Invalid Email'
+
+    response = render(request, 'page/about.html', Context({'form': ContactEmailForm(), 'warning': warning, }))
     return HttpResponse(response)
 
 
@@ -54,7 +58,7 @@ def contact(request):
 
 
 def thanks(request, thank_type, unique_id):
-    response = render(request, 'page/thanks.html', Context({'id': unique_id, 'type': thank_type}))
+    response = render(request, 'page/thanks.html', Context({'id': unique_id, 'type': thank_type, }))
     return HttpResponse(response)
 
 
