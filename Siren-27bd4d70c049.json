@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mealsloth-siren-ap02",
+  "private_key_id": "27bd4d70c049515ecdbe6a2a135f27510e7465c4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCB0Xh6VirJceAI\nJqF5kF/JXtkWFz7Gd3kC/G4VXlRFwucSkSXkd047zFppUdXf/lcfI1sSB8MNukEP\nQZKtg0vQNn9GTjaaI84C+7vfIJ8uwWjlhQAQuIqw8REr+h3z2qKDHOz13/VQrH4p\nECvyZ3z6XFv8ajQ2CjmX7qqS0SpwBX8blrck7rAZO44AfpBpylYJz5VBuieMUtPV\nbwWLxx0mh7XRbvdumfazVpYsekKEGOeInF5GQnFyfyj1CTIwOhQhjmM/6j47s2k9\nJRIBdGQyxcl+xLLg0xoIkt4FP0puLXSAYeoqOrn+84S7Bi+xEyNeK9IrlLub9hLk\nrDTKPLJVAgMBAAECggEAfhORjj5hD4MosMHT0NwGKuuSqYGp1dXyEJRX1Sjnb1j6\nUW3l/xxfPnQY2nA/5mp88iDEMZ6YMJzS0p48dYct+ejzcrRDEy/yw7L3optr/VyZ\nI08n4RVYnL+CjdM7g7iyW+Obvq7i8JaVcAvkomcfWYaZT2tViaYkiQmhXzUEogVM\n7OFMb6TwqYrqaQxqGi8N/iLaeLgmoTiwWQMiAvVF519xsyYVRROarMkBKy7W6EyS\nIc25ZQcUIFeDiiB7t9bS+2RyWwCP3B2JEZumh6biy18T1b8AjI9f/GSb7XZPkWwo\n76/4aNyJd5D3iWKe7IrGYlqj9YpXgQC8mAejpCGDgQKBgQDZe7GHPD7L2y50Wmye\nIVRAQK+NMfIk5gH8cj21u/VKFXcO3nMMfX3c7OnE3U5sfBMJ1meBvoGZUvj3C3QR\nW7exNFeo0ETB3p8LflNjaI7zDQ76Ms1hJmbFuevg3dw7nVkNjz65q+VQXjP9CrsL\n2lbly6af1tfpVLxZbk+Q3/2yLwKBgQCYzzPaw86F11ws3+WYCEN4UqVnEN1g4/g4\nO7rKtA3ER1u3ekoCc1OTJSOnyLxd2pM1rKwxZu5OP0SqwzYeSW4iwb63m1S+BJp1\nftUPX09TmYsuU/+5a5cCh8e2KcJQTAU0gVGe0zJUkVNaytSyAAL0J/Iv0gqjICEm\nor/DRbyWuwKBgQClbfR1NPtjX57vfJTgl+OZWFrw4Qwayya5m0Cbi5SivL8qfUUw\nPAjQUxni2KA93wcwVXm4dGvqb/XXHUw1o/mPfowrafjTK375ZCcUF8Wc1dMNuDUH\ncAl+39Sv4LMUWbUSnmKNI1c0EeQj19S9yGCPPaDKNsdXwk/fCwzU270DmwKBgAEZ\nvO3eayZbnrZUBntJ0/KR5c8QOAfynF8LTxUWpuK7ANYZc18BJaDxq4gR0gl7AYRp\ncfQJIb4+hmgUb9dYAAsQCieYXsvfjJ08BJzPuuqHOJFk2XqkY7oI8E9Hjba2VXND\nWyshqkMhqNAGlfGSPnMztnLRuHHkUVjN40OsxObxAoGBAIMu5x5IE5FJhijkt5ur\nqPzCLn+I45CWpiDjguFzFdqZehDtY8duXMcn6JSY75YBtANxSZPAt/i2kbGaXVHc\nLFpQ7zcyU8MUuzknwO0xNwdV2fpBBK8mmWf+qGcdcJzt699g5nwnrv4iPRxSdeLu\nyT9W7WKzHRz2uK+EDK3JrHuj\n-----END PRIVATE KEY-----\n",
+  "client_email": "mealsloth-siren-ap02@appspot.gserviceaccount.com",
+  "client_id": "106418168314083670828",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mealsloth-siren-ap02%40appspot.gserviceaccount.com"
+}
