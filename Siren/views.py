@@ -1,4 +1,3 @@
-from _include.Hydra.Hydra.settings import GCS_CLIENT_ID, GOOGLE_CLOUD_STORAGE_URL
 from form.contact.form_contact_email import ContactEmailForm
 from django.http import HttpResponse, HttpResponseRedirect
 from _include.Chimera.Chimera.models import BlogPost
@@ -6,6 +5,8 @@ from form.contact.form_contact import ContactForm
 from django.core.urlresolvers import reverse
 from django.template import Context
 from django.shortcuts import render
+from json import loads
+import urllib2
 
 
 def home(request):
@@ -39,14 +40,14 @@ def about(request):
 
 
 def blog(request):
-    url = GOOGLE_CLOUD_STORAGE_URL + GCS_CLIENT_ID + '/'
+    url = loads(urllib2.urlopen('http://api.mealsloth.com/get-bucket-url/')).get('url')
     blog_post_list = list(BlogPost.objects.order_by('post_time').all().values())
     response = render(request, 'page/blog.html', Context({'blog_post_list': blog_post_list, 'url': url}))
     return HttpResponse(response)
 
 
 def blog_post(request, blog_post_id):
-    url = GOOGLE_CLOUD_STORAGE_URL + GCS_CLIENT_ID + '/'
+    url = loads(urllib2.urlopen('http://api.mealsloth.com/get-bucket-url/')).get('url')
     current_blog_post = BlogPost.objects.filter(id=blog_post_id).values()[0]
     blog_post_list = list(BlogPost.objects.order_by('-post_time').all().values())
     response = render(request, 'page/blog-post.html', Context({
@@ -95,11 +96,4 @@ def producer(request):
 
 def faq(request):
     response = render(request, 'page/faq.html')
-    return HttpResponse(response)
-
-
-def test(request):
-    url = GOOGLE_CLOUD_STORAGE_URL + GCS_CLIENT_ID + '/'
-    gcs_id = 'user/profile-photo/ff8f51e4-ef88-4d08-9003-f46f550ab088'
-    response = render(request, 'page/test.html', Context({'url': url, 'gcs_id': gcs_id}))
     return HttpResponse(response)
