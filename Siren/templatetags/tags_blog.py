@@ -1,5 +1,5 @@
+from _include.Chimera.Chimera.models import Author
 from django import template
-from Siren.models import Author
 
 
 register = template.Library()

@@ -1,5 +1,5 @@
+from _include.Chimera.Chimera.models import ContactEmail, Contact
 from django import template
-from Siren.models import ContactEmail, Contact
 
 
 register = template.Library()
