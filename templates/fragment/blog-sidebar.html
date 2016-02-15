@@ -14,7 +14,7 @@
         {% for blog_post in blog_post_list %}
             <div>
                 <div>
-                    <img src="{% static 'images/mealsloth-logo-medium.png' %}"/>
+                    <img src="{{ url }}{% entry_for_key blog_post 'id' %}"/>
                 </div>
                 <div>
                     <h4>

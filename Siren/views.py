@@ -39,16 +39,18 @@ def about(request):
 
 
 def blog(request):
+    url = GOOGLE_CLOUD_STORAGE_URL + GCS_CLIENT_ID + '/siren/blog/'
     blog_post_list = list(BlogPost.objects.order_by('post_time').all().values())
-    response = render(request, 'page/blog.html', Context({'blog_post_list': blog_post_list}))
+    response = render(request, 'page/blog.html', Context({'blog_post_list': blog_post_list, 'url': url}))
     return HttpResponse(response)
 
 
 def blog_post(request, blog_post_id):
+    url = GOOGLE_CLOUD_STORAGE_URL + GCS_CLIENT_ID + '/siren/blog/'
     current_blog_post = BlogPost.objects.filter(id=blog_post_id).values()[0]
     blog_post_list = list(BlogPost.objects.order_by('-post_time').all().values())
     response = render(request, 'page/blog-post.html', Context({
-        'blog_post': current_blog_post, 'blog_post_list': blog_post_list,
+        'blog_post': current_blog_post, 'blog_post_list': blog_post_list, 'url': url,
     }))
     return HttpResponse(response)
 
