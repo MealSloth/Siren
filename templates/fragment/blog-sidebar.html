@@ -14,7 +14,7 @@
         {% for blog_post in blog_post_list %}
             <div>
                 <div>
-                    <img src="{{ url }}{% entry_for_key blog_post 'id' %}"/>
+                    <img src="{{ url }}{% gcs_id_for_blog_post blog_post %}"/>
                 </div>
                 <div>
                     <h4>

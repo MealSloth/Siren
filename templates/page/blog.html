@@ -35,7 +35,7 @@
                     <tr>
                         <td>
                             <a href="/blog-post/{% entry_for_key blog_post 'id' %}">
-                                <img src="{{ url }}{% entry_for_key blog_post 'id' %}"/>
+                                <img src="{{ url }}{% gcs_id_for_blog_post blog_post %}"/>
                             </a>
                         </td>
                     </tr>
