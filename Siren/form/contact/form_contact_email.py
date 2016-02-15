@@ -1,5 +1,5 @@
+from _include.Chimera.Chimera.models import ContactEmail
 from django.forms import *
-from Siren.models import ContactEmail
 
 
 class ContactEmailForm(Form):
