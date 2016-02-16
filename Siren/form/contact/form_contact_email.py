@@ -3,7 +3,7 @@ from django.forms import *
 
 
 class ContactEmailForm(Form):
-    email = EmailField(max_length=254, required=True)
+    email = EmailField(max_length=254, required=True, widget=TextInput(attrs={'placeholder': 'Email Address'}))
 
     def process(self):
         email = self.cleaned_data['email']
