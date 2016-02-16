@@ -40,14 +40,14 @@ def about(request):
 
 
 def blog(request):
-    url = loads(urllib2.urlopen('http://api.mealsloth.com/get-bucket-url/')).get('url')
+    url = loads(urllib2.urlopen('http://api.mealsloth.com/get-bucket-url/').read()).get('url')
     blog_post_list = list(BlogPost.objects.order_by('post_time').all().values())
     response = render(request, 'page/blog.html', Context({'blog_post_list': blog_post_list, 'url': url}))
     return HttpResponse(response)
 
 
 def blog_post(request, blog_post_id):
-    url = loads(urllib2.urlopen('http://api.mealsloth.com/get-bucket-url/')).get('url')
+    url = loads(urllib2.urlopen('http://api.mealsloth.com/get-bucket-url/').read()).get('url')
     current_blog_post = BlogPost.objects.filter(id=blog_post_id).values()[0]
     blog_post_list = list(BlogPost.objects.order_by('-post_time').all().values())
     response = render(request, 'page/blog-post.html', Context({
