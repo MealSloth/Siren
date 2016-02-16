@@ -1,12 +1,11 @@
 from form.contact.form_contact_email import ContactEmailForm
 from django.http import HttpResponse, HttpResponseRedirect
+from _include.Chimera.Chimera.settings import GCS_URL
 from _include.Chimera.Chimera.models import BlogPost
 from form.contact.form_contact import ContactForm
 from django.core.urlresolvers import reverse
 from django.template import Context
 from django.shortcuts import render
-from json import loads
-import urllib2
 
 
 def home(request):
@@ -40,18 +39,16 @@ def about(request):
 
 
 def blog(request):
-    url = loads(urllib2.urlopen('http://api.mealsloth.com/get-bucket-url/').read()).get('url')
     blog_post_list = list(BlogPost.objects.order_by('post_time').all().values())
-    response = render(request, 'page/blog.html', Context({'blog_post_list': blog_post_list, 'url': url}))
+    response = render(request, 'page/blog.html', Context({'blog_post_list': blog_post_list, 'url': GCS_URL}))
     return HttpResponse(response)
 
 
 def blog_post(request, blog_post_id):
-    url = loads(urllib2.urlopen('http://api.mealsloth.com/get-bucket-url/').read()).get('url')
     current_blog_post = BlogPost.objects.filter(id=blog_post_id).values()[0]
     blog_post_list = list(BlogPost.objects.order_by('-post_time').all().values())
     response = render(request, 'page/blog-post.html', Context({
-        'blog_post': current_blog_post, 'blog_post_list': blog_post_list, 'url': url,
+        'blog_post': current_blog_post, 'blog_post_list': blog_post_list, 'url': GCS_URL,
     }))
     return HttpResponse(response)
 
