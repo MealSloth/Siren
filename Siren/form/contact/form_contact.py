@@ -1,4 +1,5 @@
 from _include.Chimera.Chimera.models import Contact
+from datetime import datetime
 from django.forms import *
 
 
@@ -16,12 +17,14 @@ class ContactForm(Form):
         last_name = self.cleaned_data['last_name']
         email = self.cleaned_data['email']
         message = self.cleaned_data['message']
+        time = datetime.utcnow()
 
         contact = Contact(
             first_name=first_name,
             last_name=last_name,
             email=email,
             message=message,
+            time=time,
         )
 
         contact.save()
