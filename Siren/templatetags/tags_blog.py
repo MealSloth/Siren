@@ -18,4 +18,4 @@ def post_time_for_blog_post(blog_post):
 
 @register.simple_tag
 def gcs_id_for_blog_post(blog_post):
-    return Blob.objects.filter(album_id=blog_post.get('album_id')).values()[0].get('gcs_id')
+    return Blob.objects.filter(album_id=blog_post.get('album_id')).order_by('time').values()[0].get('gcs_id')
