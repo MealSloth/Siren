@@ -39,7 +39,7 @@ def about(request):
 
 
 def blog(request):
-    blog_post_list = list(BlogPost.objects.order_by('post_time').all().values())
+    blog_post_list = list(BlogPost.objects.all().order_by('-post_time').values())
     response = render(request, 'page/blog.html', Context({'blog_post_list': blog_post_list, 'url': GCS_URL}))
     return HttpResponse(response)
 
