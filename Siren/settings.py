@@ -1,6 +1,16 @@
 from _include.Chimera.Chimera.databases import databases
+import sys
 import os
 
+git_submodules = [
+    '_include/Chimera/',
+    '_include/Hydra/',
+]
+
+for directory in git_submodules:
+    path = os.path.join(directory)
+    if path not in sys.path:
+        sys.path.append(path)
 
 PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
