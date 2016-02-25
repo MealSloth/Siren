@@ -38,6 +38,8 @@ section.siren-page-blog-post__section-body
                     padding: 0 10px 0 10px;
                     overflow: hidden;
 
+                    @media (max-width: @screen-md-min) { padding: 0 10px 60px 10px; }
+
                     h3
                     {
                         font-weight: bolder;
@@ -87,6 +89,11 @@ section.siren-page-blog-post__section-body
 
                             @media (max-width: @screen-md-min) { font-size: 36px; }
                         }
+                    }
+
+                    p:last-of-type
+                    {
+                        padding: 5px 5px 25px 5px;
                     }
                 }
             }
