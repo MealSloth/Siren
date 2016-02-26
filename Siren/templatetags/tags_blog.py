@@ -13,7 +13,7 @@ def author_for_blog_post(blog_post):
 
 @register.simple_tag
 def post_time_for_blog_post(blog_post):
-    return blog_post.get('post_time')[:11]
+    return blog_post.get('post_time')[:10]
 
 
 @register.simple_tag
