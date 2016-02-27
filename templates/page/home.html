@@ -6,15 +6,14 @@
     <head>
         <meta charset="UTF-8">
         <title>MealSloth</title>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+        <script src="{% static 'js/jquery-1.12.0.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}" type="text/javascript"></script>
     </head>
 
-    <body class="siren-page-home__body">
+    <body>
 
-        <div style="margin-top: -20px">
-            {% include './fragment/navbar.html' %}
-        </div>
+        {% include 'fragment/navbar.html' %}
 
         <section class="siren-page-home__section-header">
 
@@ -39,32 +38,55 @@
 
         </section>
 
-        <section class="siren-page-home__section-body-1">
+        <section class="siren-page-home__section-body-1 siren-page-home__desktop-only">
 
             <a name="secondpage"></a>
 
             <h4>What is MealSloth?</h4>
 
-            <div class="row">
-                <div class="col-md-6 col-xs-12 siren-page-home__section-body-1__img"></div>
-                <div class="col-md-6 col-xs-12 siren-page-home__section-body-1__bordered">
-                    <table>
-                        <tr>
-                            <td class="siren-page-home__section-body-2__td-first">
-                                <h5 class="col-md-">An app which allows you to buy and sell homemade food</h5>
-                            </td>
-                            <td class="siren-page-home__section-body-2__td-second">
-                                <img src="{% static 'images/home/ellipse-smartphone-chat.png' %}" alt="smartphone" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><p>MealSloth connects foodies and cooking enthusiasts to promote superior
-                            quality home cooked meals to everyone. With MealSloth, anyone can be
-                            a chef, and everyone has access to fresh homemade food!</p></td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
+            <table>
+                <tr>
+                    <td>
+                        <img src="{% static 'images/home/producer-customer-exchange.jpg' %}" />
+                    </td>
+                    <td>
+                        <div>
+                            <h5>An app which allows you to buy and sell homemade food</h5>
+                            <img src="{% static 'images/home/ellipse-smartphone-chat.png' %}" alt="smartphone"/>
+                            <p>MealSloth connects foodies and cooking enthusiasts to promote superior
+                                quality home cooked meals to everyone. With MealSloth, anyone can be
+                                a chef, and everyone has access to fresh homemade food!</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+        </section>
+
+        <section class="siren-page-home__section-body-1 siren-page-home__mobile-only">
+
+            <a name="secondpage"></a>
+
+            <h4>What is MealSloth?</h4>
+
+            <table>
+                <tr>
+                    <td>
+                        <img src="{% static 'images/home/producer-customer-exchange.jpg' %}" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <h5>An app which allows you to buy and sell homemade food</h5>
+                            <img src="{% static 'images/home/ellipse-smartphone-chat.png' %}" alt="smartphone"/>
+                            <p>MealSloth connects foodies and cooking enthusiasts to promote superior
+                                quality home cooked meals to everyone. With MealSloth, anyone can be
+                                a chef, and everyone has access to fresh homemade food!</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
 
         </section>
 
@@ -152,25 +174,10 @@
 
             <a name="fourthpage"></a>
 
-            <h3>How it Works</h3>
-            <div class="col-md-6 col-xs-12 siren-page-home__section-body-3__div-left">
-                <table>
-                    <tr>
-                        <td><img src="{% static 'images/home/rocket-mono.png' %}" /></td>
-                        <td><h5>Convenient</h5></td>
-                    </tr>
-                    <tr>
-                        <td><img src="{% static 'images/home/shield-mono.png' %}" /></td>
-                        <td><h5>Safe</h5></td>
-                    </tr>
-                    <tr>
-                        <td><img src="{% static 'images/home/smartphone-mono.png' %}" /></td>
-                        <td><h5>Easy to use</h5></td>
-                    </tr>
-                </table>
-            </div>
-            <div class="col-md-6 col-xs-12 siren-page-home__section-body-3__div-right">
-                <img src="{% static 'images/taskflow.png' %}" />
+            <div>
+                <div>
+                    <iframe src="https://player.vimeo.com/video/145462667" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
             </div>
 
         </section>
@@ -185,7 +192,7 @@
                     <h6>You can even become a part time home chef and earn some extra cash now.</h6>
                 </div>
                 <div class="siren-page-home__buffer"></div>
-                <a>Learn How</a>
+                <a href="/producer">Learn How</a>
             </div>
 
         </section>
@@ -196,11 +203,12 @@
 
             <div>
                 <h2>Meet The Team</h2>
+                <div></div>
                 <table>
                     <tr>
-                        <td><img src="{% static 'images/home/example-profile1.jpg' %}" /></td>
-                        <td><img src="{% static 'images/home/example-profile2.jpg' %}" /></td>
-                        <td><img src="{% static 'images/home/example-profile3.jpg' %}" /></td>
+                        <td><img src="{% static 'images/team-photos/michael-profile.png' %}" alt="michael" /></td>
+                        <td><img src="{% static 'images/team-photos/phren-profile.png' %}" alt="phren" /></td>
+                        <td><img src="{% static 'images/team-photos/yunbo-profile.png' %}" alt="yunbo" /></td>
                     </tr>
                     <tr>
                         <td><h5>Michael Fourre</h5></td>
@@ -208,9 +216,21 @@
                         <td><h5>Yunbo Cai</h5></td>
                     </tr>
                     <tr>
-                        <td><img src="{% static 'images/social-media/linkedin-mono.png' %}" /></td>
-                        <td><img src="{% static 'images/social-media/linkedin-mono.png' %}" /></td>
-                        <td><img src="{% static 'images/social-media/linkedin-mono.png' %}" /></td>
+                        <td>
+                            <a href="https://www.linkedin.com/in/michael-fourré-57369099" target="_blank">
+                                <img src="{% static 'images/social-media/linkedin-mono.png' %}" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.linkedin.com/in/phren-soh-a5757772" target="_blank">
+                                <img src="{% static 'images/social-media/linkedin-mono.png' %}" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.linkedin.com/in/yunbo-cai-58752a58" target="_blank">
+                                <img src="{% static 'images/social-media/linkedin-mono.png' %}" />
+                            </a>
+                        </td>
                     </tr>
                     <tr>
                         <td><p>Michael is CIO and co-founder of MealSloth. He leads the tech side of MealSloth in creating and enhancing all mobile and web applications.</p></td>
@@ -230,37 +250,49 @@
                 <h2>Meet The Team</h2>
                 <table>
                     <tr>
-                        <td><img src="{% static 'images/home/example-profile1.jpg' %}" class="siren-page-home__section-body-5__profile" /></td>
+                        <td><img src="{% static 'images/team-photos/michael-profile.png' %}" alt="michael" class="siren-page-home__section-body-5__profile" /></td>
                     </tr>
                     <tr>
                         <td><h5>Michael Fourre</h5></td>
                     </tr>
                     <tr>
-                        <td><img src="{% static 'images/social-media/linkedin-mono.png' %}" /></td>
+                        <td>
+                            <a href="https://www.linkedin.com/in/michael-fourré-57369099" target="_blank" alt="linkedin">
+                                <img src="{% static 'images/social-media/linkedin-mono.png' %}" />
+                            </a>
+                        </td>
                     </tr>
                     <tr>
                         <td><p>Michael is CIO and co-founder of MealSloth. He leads the tech side of MealSloth in creating and enhancing all mobile and web applications.</p></td>
                     </tr>
                     <tr>
-                        <td><img src="{% static 'images/home/example-profile2.jpg' %}" class="siren-page-home__section-body-5__profile" /></td>
+                        <td><img src="{% static 'images/team-photos/phren-profile.png' %}" alt="phren" class="siren-page-home__section-body-5__profile" /></td>
                     </tr>
                     <tr>
                         <td><h5>Phren Soh</h5></td>
                     </tr>
                     <tr>
-                        <td><img src="{% static 'images/social-media/linkedin-mono.png' %}" /></td>
+                        <td>
+                            <a href="https://www.linkedin.com/in/phren-soh-a5757772" target="_blank" alt="linkedin">
+                                <img src="{% static 'images/social-media/linkedin-mono.png' %}" />
+                            </a>
+                        </td>
                     </tr>
                     <tr>
                         <td><p>Phren is COO and co-founder of MealSloth. He leads marketing and human resources to bring MealSloth to the public light with peak efficiency.</p></td>
                     </tr>
                     <tr>
-                        <td><img src="{% static 'images/home/example-profile3.jpg' %}" class="siren-page-home__section-body-5__profile" /></td>
+                        <td><img src="{% static 'images/team-photos/yunbo-profile.png' %}" alt="yunbo" class="siren-page-home__section-body-5__profile" /></td>
                     </tr>
                     <tr>
                         <td><h5>Yunbo Cai</h5></td>
                     </tr>
                     <tr>
-                        <td><img src="{% static 'images/social-media/linkedin-mono.png' %}" /></td>
+                        <td>
+                            <a href="https://www.linkedin.com/in/yunbo-cai-58752a58" target="_blank" alt="linkedin">
+                                <img src="{% static 'images/social-media/linkedin-mono.png' %}" />
+                            </a>
+                        </td>
                     </tr>
                     <tr>
                         <td><p>Yunbo is CFO of MealSloth. He leads financial strategy and advises business motives in order to safely and effectively grow MealSloth as a company.</p></td>
@@ -278,18 +310,28 @@
                 <h3>Being slothful and don't feel like moving? It only takes one click to stay updated with our project.</h3>
                 <div>
                     <h4>Join our mailing list and never miss an update</h4>
-                    <div>
-                        <table>
-                            <tr>
-                                <td>
-                                    <input type="text">
-                                </td>
-                                <td>
-                                    <a>Subscribe Now</a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
+                    <form action="/" method="post"> {% csrf_token %}
+                        <div>
+                            <table>
+                                <tr>
+                                    <td>
+                                        {{ form.email.errors }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        {{ form.email }}
+                                    </td>
+                                    <td>
+                                        <input type="submit" value="Subscribe" id="submit">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </form>
+                    {% if warning %}
+                    <h3>{{ warning }}</h3>
+                    {% endif %}
                 </div>
             </div>
 

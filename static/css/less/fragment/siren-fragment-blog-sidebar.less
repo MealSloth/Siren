@@ -1,0 +1,81 @@
+@import "../imports";
+
+div.siren-fragment-blog-sidebar__div-sidebar
+{
+    float: right;
+    width: 30%;
+
+    > div
+    {
+        margin: 0 auto 0 0;
+        width: 50%;
+
+        > h4
+        {
+            border-bottom: 8px solid rgba(20,20,20,1.0);
+            padding: 10px 0 10px 0;
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        table:nth-of-type(1)
+        {
+            min-height: 200px;
+        }
+
+        table:nth-of-type(4)
+        {
+            tr
+            {
+                td
+                {
+                    padding: 5px;
+
+                    img
+                    {
+                        height: 30px;
+                        width: 30px;
+                    }
+                }
+            }
+        }
+
+        > div
+        {
+            overflow: auto;
+            width: 100%;
+
+            > div:first-of-type
+            {
+                float: left;
+                width: 30%;
+
+                > img
+                {
+                    max-height: 100%;
+                    max-width: 100%;
+                }
+            }
+
+            > div:last-of-type
+            {
+                float: right;
+                width: 65%;
+
+                > h4
+                {
+                    a
+                    {
+                        color: rgba(60,60,60,1.0);
+                    }
+                }
+
+                > p
+                {
+                    color: rgba(80,80,80,1.0);
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}

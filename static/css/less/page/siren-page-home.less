@@ -1,0 +1,833 @@
+@import "../imports";
+
+.siren-page-home__desktop-only { @media (max-width: @screen-md-min) { display: none; } }
+
+.siren-page-home__mobile-only { @media (min-width: @screen-md-min) { display: none; } }
+
+section.siren-page-home__section-header
+{
+    //noinspection CssUnknownTarget
+    background: url("../images/home/banner-food-preparation-dim.png") no-repeat fixed;
+    color: rgba(253,253,253,1.0);
+    background-size: 100%;
+    text-align: center;
+    padding: 10px;
+    height: 600px;
+    width: 100%;
+
+    @media (max-width: @screen-md-min)
+    {
+        //noinspection CssUnknownTarget
+        background: url("../images/home/overhead-stovetop-dim-mobile.png") no-repeat;
+        height: 1200px;
+    }
+
+    @media (min-width: @screen-lg) { height: 800px; }
+
+    > div
+    {
+        h3
+        {
+            font-family: "Niconne Regular", sans-serif;
+            padding: 104px 0 0 0;
+            font-size: 112px;
+
+            @media (max-width: @screen-md-min)
+            {
+                padding: 208px 0 0 0;
+                font-size: 208px;
+            }
+
+            @media (min-width: @screen-lg) { padding: 156px 0 0 0; }
+
+            @media (min-width: 1600px) { padding: 208px 0 0 0; }
+        }
+
+        h5
+        {
+            font-family: "Times New Roman", serif;
+            padding: 16px 0 124px 0;
+            font-size: 32px;
+
+            @media (max-width: @screen-md-min)
+            {
+                padding: 32px 0 196px 0;
+                font-size: 92px;
+            }
+        }
+
+        > a
+        {
+            padding: 18px 64px 18px 64px;
+            color: rgba(253,253,253,1.0);
+            border: 2px solid white;
+            margin: 50px 0 0 0;
+            font-size: 18px;
+
+            @media (max-width: @screen-md-min)
+            {
+                padding: 36px 128px 36px 128px;
+                border: 4px solid white;
+                font-size: 54px;
+                cursor: pointer;
+            }
+        }
+
+        > a:hover
+        {
+            background-color: rgba(30,30,30,0.9);
+            text-decoration: none;
+            border: none;
+        }
+
+        > div
+        {
+            padding: 30px 0 0 0;
+
+            @media (max-width: @screen-md-min) { padding: 90px 0 0 0; }
+
+            > a
+            {
+                > img
+                {
+                    padding: 4px;
+                    height: 48px;
+                    width: 48px;
+
+                    @media (max-width: @screen-md-min)
+                    {
+                        height: 96px;
+                        width: 96px;
+                    }
+                }
+            }
+
+            > a:hover
+            {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+section.siren-page-home__section-body-1
+{
+    background-color: rgba(253,253,253,1.0);
+    padding: 20px 0 30px 0;
+    text-align: center;
+    color: black;
+    width: 100%;
+
+    > h4
+    {
+        font-family: Lobster, sans-serif;
+        padding: 30px 0 20px 0;
+        font-size: 36px;
+
+        @media (max-width: @screen-md-min) { font-size: 54px; }
+    }
+
+    > table
+    {
+        table-layout: fixed;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+
+        tr td
+        {
+            vertical-align: middle;
+            padding: 20px;
+            width: 48%;
+
+            @media (max-width: @screen-md-min) { width: 100%; }
+        }
+
+        tr td:first-of-type
+        {
+            img
+            {
+                max-height: 100%;
+                max-width: 100%;
+            }
+        }
+
+        tr td:last-of-type
+        {
+            position: relative;
+            overflow: auto;
+
+            div
+            {
+                border: 4px solid rgba(166, 12, 12, 1.0);
+
+                @media (min-width: @screen-md-min)
+                {
+                    position: absolute;
+                    padding: 20px;
+                    right: 20px;
+                    height: 94%;
+                    width: 94%;
+                    top: 20px;
+                }
+
+                @media (min-width: 1400px) { padding: 70px; }
+
+                @media (min-width: 1600px) { padding: 100px; }
+
+                @media (max-width: @screen-md-min)
+                {
+                    position: static;
+                    margin: 0 auto;
+                    padding: 60px;
+                    height: 100%;
+                    width: 100%;
+                }
+
+                h5
+                {
+                    font-family: "Times New Roman", serif;
+                    text-align: left;
+                    font-size: 32px;
+                    float: left;
+
+                    @media (max-width: @screen-md-min) { font-size: 64px; }
+
+                    @media (min-width: @screen-lg) { font-size: 36px; }
+                }
+
+                img
+                {
+                    height: 136px;
+                    width: 136px;
+                    float: right;
+
+                    @media (max-width: @screen-md-min)
+                    {
+                        height: 204px;
+                        width: 204px;
+                    }
+
+                    @media (min-width: @screen-lg)
+                    {
+                        height: 204px;
+                        width: 204px;
+                    }
+                }
+
+                p
+                {
+                    text-align: left;
+                    font-size: 22px;
+
+                    @media (max-width: @screen-md-min) { font-size: 44px; }
+
+                    @media (min-width: @screen-lg) { font-size: 24px; }
+                }
+            }
+        }
+
+        td.siren-page-home__section-body-2__td-first
+        {
+            width: 68%;
+        }
+
+        td.siren-page-home__section-body-2__td-second
+        {
+            width: 28%;
+        }
+    }
+}
+
+section.siren-page-home__section-body-2-desktop
+{
+    //noinspection CssUnknownTarget
+    background:  url("../images/home/banner-food-presentation.png") rgba(200,200,200,0.9) no-repeat;
+    color: rgba(253,253,253,1.0);
+    background-size: 100%;
+    text-align: center;
+    height: 460px;
+    width: 100%;
+
+    @media (max-width: @screen-md-min)
+    {
+        display: none;
+    }
+
+    @media (min-width: 1650px) { height: 550px; }
+
+    > div
+    {
+        background-color: rgba(100,100,100,0.4);
+        border-bottom: 8px solid rgba(0,0,0,0.3);
+        border-top: 8px solid rgba(0,0,0,0.3);
+        text-align: center;
+        height: inherit;
+        width: 100%;
+
+        > div
+        {
+            text-align: center;
+            margin: 0 auto;
+            width: 80%;
+
+            > h4
+            {
+                font-family: Tahoma, sans-serif;
+                padding: 15px 0 0 0;
+                letter-spacing: 9px;
+                font-size: 52px;
+            }
+
+            > div
+            {
+                padding: 10px 0 0 0;
+                text-align: center;
+
+                > img
+                {
+                    border: 5px solid rgba(60,60,60,1.0);
+                    height: 100%;
+                    width: 100%;
+                }
+
+                table
+                {
+                    background-color: rgba(0,0,0,0.4);
+                    table-layout: fixed;
+                    width: 100%;
+
+                    tr.siren-page-home__section-body-2-desktop__tr-img
+                    {
+                        border: 4px solid rgba(60,60,60,1.0);
+                        background-color: rgba(253,253,253,1.0);
+
+                        td
+                        {
+                            padding: 10px;
+                        }
+                    }
+
+                    tr.siren-page-home__section-body-2-desktop__tr-shc
+                    {
+                        td
+                        {
+                            font-family: "Times New Roman", serif;
+                            font-style: italic;
+                            padding: 5px 0 0 0;
+                            font-weight: bold;
+                            font-size: 24px;
+                            width: 33%;
+                        }
+                    }
+
+                    tr.siren-page-home__section-body-2-desktop__tr-desc
+                    {
+                        td
+                        {
+                            font-family: "Spinnaker Regular", Spinnaker, sans-serif;
+                            padding: 10px 5px 10px 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.siren-page-home__section-body-2-mobile
+{
+    //noinspection CssUnknownTarget
+    background:  url("../images/home/banner-food-presentation-mobile.png") rgba(200,200,200,0.9) no-repeat;
+    color: rgba(253,253,253,1.0);
+    background-size: 100%;
+    text-align: center;
+    height: 2800px;
+    width: 100%;
+
+    @media (min-width: @screen-md-min)
+    {
+        display: none;
+    }
+
+    > div
+    {
+        background-color: rgba(100,100,100,0.4);
+        border-bottom: 16px solid rgba(0,0,0,0.3);
+        border-top: 16px solid rgba(0,0,0,0.3);
+        text-align: center;
+        height: inherit;
+        width: 100%;
+
+        > div
+        {
+            text-align: center;
+            margin: 0 auto;
+            height: 100%;
+            width: 80%;
+
+            > h4
+            {
+                font-family: "Spinnaker Regular", Spinnaker, sans-serif;
+                padding: 30px 0 0 0;
+                font-size: 104px;
+            }
+
+            > div
+            {
+                padding: 20px 0 0 0;
+                text-align: center;
+
+                > img
+                {
+                    border: 10px solid rgba(60,60,60,1.0);
+                    height: 100%;
+                    width: 100%;
+                }
+
+                table
+                {
+                    background-color: rgba(0,0,0,0.4);
+                    table-layout: fixed;
+                    width: 100%;
+
+                    tr
+                    {
+                        td
+                        {
+                            padding: 20px;
+
+                            img
+                            {
+                                height: 300px;
+                                width: 300px;
+                            }
+                        }
+                    }
+
+                    tr.siren-page-home__section-body-2-mobile__tr-shc
+                    {
+                        td
+                        {
+                            font-family: "Times New Roman", serif;
+                            padding: 10px 0 0 0;
+                            font-style: italic;
+                            font-weight: bold;
+                            font-size: 72px;
+                            width: 33%;
+                        }
+                    }
+
+                    tr.siren-page-home__section-body-2-mobile__tr-desc
+                    {
+                        td
+                        {
+                            font-family: "Spinnaker Regular", Spinnaker, sans-serif;
+                            font-size: 48px;
+                            padding: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.siren-page-home__section-body-3
+{
+    background-color: rgba(235,235,235,1.0);
+    padding: 50px 0 50px 0;
+    text-align: center;
+    height: 720px;
+    color: black;
+    width: 100%;
+
+    @media (max-width: @screen-md-min)
+    {
+        padding: 75px 0 75px 0;
+        height: 790px;
+    }
+
+    > div
+    {
+        background-color: transparent;
+        margin: 0 auto;
+        padding: 30px;
+        width: 1180px;
+
+        @media (max-width: @screen-lg-min) { width: 980px; }
+
+        @media (max-width: @screen-md-min) { width: 100%; }
+
+        > div
+        {
+            background-color: transparent;
+            border-radius: 5px;
+            padding: 15px;
+
+            @media (max-width: @screen-md-min) { width: 100%; }
+
+            > iframe
+            {
+                height: 500px;
+                width: 1000px;
+
+                @media (max-width: @screen-lg-min) { width: 800px; }
+
+                @media (max-width: @screen-md-min)
+                {
+                    height: 500px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+section.siren-page-home__section-body-4
+{
+    //noinspection CssUnknownTarget
+    background: url("../images/home/overhead-stovetop-dim.jpeg") rgba(200,200,200,0.9) no-repeat;
+    color: rgba(253,253,253,1.0);
+    background-size: 100%;
+    margin: -30px 0 0 0;
+    text-align: center;
+    width: 100%;
+
+    @media (max-width: @screen-md-min)
+    {
+        //noinspection CssUnknownTarget
+        background: url("../images/home/overhead-bowl-eating-mobile.jpg") rgba(200,200,200,0.9) no-repeat;
+        background-size: 100%;
+    }
+
+    > div
+    {
+        background-color: rgba(255,255,255,0.2);
+        padding: 25px 0 50px 0;
+        text-align: center;
+        height: 100%;
+
+        @media (max-width: @screen-md-min)
+        {
+            background-color: rgba(0,0,0,0.4);
+            padding: 20px 20px 100px 20px;
+        }
+
+        > div.siren-page-home__section-body-4__shaded
+        {
+            background-color: rgba(0,0,0,0.4);
+            margin: 30px auto;
+            padding: 40px;
+            width: 50%;
+
+            @media (max-width: @screen-md-min) { width: 70%; }
+
+            > h2
+            {
+                font-family: "Times New Roman", serif;
+                font-size: 64px;
+
+                @media (max-width: @screen-md-min) { font-size: 96px; }
+            }
+
+            > h6
+            {
+                font-family: "Times New Roman", serif;
+                padding: 30px 10px 30px 10px;
+                font-size: 28px;
+                margin: 0 auto;
+                width: 70%;
+
+                @media (max-width: @screen-md-min)
+                {
+                    padding: 25px 0 0 0;
+                    font-size: 52px;
+                    width: 90%;
+                }
+            }
+        }
+
+        > div.siren-page-home__buffer
+        {
+            background-color: transparent;
+            height: 80px;
+        }
+
+        > a
+        {
+            background-color: rgba(0,0,0,0.3);
+            color: rgba(253,253,253,1.0);
+            padding: 15px 30px 15px 30px;
+            border: 2px solid white;
+            font-size: 18px;
+            margin: 0 auto;
+
+            @media (max-width: @screen-md-min)
+            {
+                padding: 30px 60px 30px 60px;
+                border: 4px solid white;
+                font-size: 36px;
+            }
+        }
+
+        > a:hover
+        {
+            background-color: rgba(30,30,30,0.9);
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+        }
+    }
+}
+
+section.siren-page-home__section-body-5-desktop
+{
+    background-color: rgba(250,250,250,1.0);
+    width: 100%;
+
+    @media (max-width: @screen-md-min)
+    {
+        display: none;
+    }
+
+    > div
+    {
+        text-align: center;
+        margin: 0 auto;
+        padding: 40px;
+        width: 90%;
+
+        h2:first-child
+        {
+            font-family: "Times New Roman", serif;
+            font-size: 46px;
+        }
+
+        > div
+        {
+            border-top: 3px solid rgba(60,60,60,1.0);
+            padding: 0 0 25px 0;
+            margin: 0 auto;
+            width: 7%;
+        }
+
+        table
+        {
+            margin: 0 auto;
+
+            tr
+            {
+                td
+                {
+                    padding: 10px 36px 10px 36px;
+
+                    img
+                    {
+                        border-radius: 50%;
+                    }
+
+                    h5
+                    {
+                        font-family: "Times New Roman", serif;
+                        font-style: italic;
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.siren-page-home__section-body-5-mobile
+{
+    background-color: rgba(250, 250, 250, 1.0);
+    margin: -20px 0 0 0;
+    width: 100%;
+
+    @media (min-width: @screen-md-min) { display: none; }
+
+    > div
+    {
+        text-align: center;
+        padding: 40px;
+
+        h2
+        {
+            font-family: "Times New Roman", serif;
+            padding: 0 0 40px 0;
+            font-size: 38px;
+
+            @media (max-width: @screen-md-min) { font-size: 84px; }
+        }
+
+        table
+        {
+            margin: 0 auto;
+
+            tr
+            {
+                td
+                {
+                    padding: 10px 36px 10px 36px;
+
+                    img
+                    {
+                        width: 75px;
+                        height: 75px;
+                    }
+
+                    img.siren-page-home__section-body-5__profile
+                    {
+                        border-radius: 50%;
+
+                        @media (max-width: @screen-md-min)
+                        {
+                            height: 500px;
+                            width: 500px;
+                        }
+                    }
+
+                    h5
+                    {
+                        font-family: "Times New Roman", serif;
+                        font-style: italic;
+                        font-size: 18px;
+
+                        @media (max-width: @screen-md-min) { font-size: 54px; }
+                    }
+
+                    p
+                    {
+                        @media (max-width: @screen-md-min) { font-size: 36px; }
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.siren-page-home__section-body-6
+{
+    background-color: rgba(253,253,253,1.0);
+    margin: -20px 0 0 0;
+    width: 100%;
+
+    > div
+    {
+        padding: 100px 50px 100px 50px;
+        margin: 0 auto;
+        width: 800px;
+
+        @media (max-width: @screen-md-min)
+        {
+            width: 100%;
+        }
+
+        h3
+        {
+            font-family: "Times New Roman", serif;
+            text-align: center;
+            margin: 0 auto;
+            padding: 30px;
+            width: 80%;
+
+            @media (max-width: @screen-md-min) { font-size: 54px; }
+        }
+
+        > div
+        {
+            border: 2px solid black;
+            margin: 0 auto;
+            padding: 15px;
+            width: 70%;
+
+            @media (max-width: @screen-md-min)
+            {
+                width: 100%;
+            }
+
+            h4
+            {
+                color: rgba(166,12,12,1.0);
+                text-align: left;
+
+                @media (max-width: @screen-md-min)
+                {
+                    padding: 10px 10px 30px 10px;
+                    font-size: 32px;
+                }
+            }
+
+            > form
+            {
+                > div
+                {
+                    padding: 0 10px 0 10px;
+
+                    table
+                    {
+                        width: 100%;
+
+                        tr
+                        {
+                            td
+                            {
+                                input
+                                {
+                                    font-size: 18px;
+                                    float: left;
+                                    width: 100%;
+
+                                    @media (max-width: @screen-md-min)
+                                    {
+                                        font-size: 26px;
+                                    }
+                                }
+
+                                > input[type=text]
+                                {
+                                    font-size: 18px;
+                                    padding: 8px;
+
+                                    @media (max-width: @screen-md-min)
+                                    {
+                                        padding: 8px 16px 8px 16px;
+                                        font-size: 32px;
+                                    }
+                                }
+
+                                > input[type=submit]
+                                {
+                                    background-color: rgba(166, 12, 12, 1.0);
+                                    color: rgba(253, 253, 253, 1.0);
+                                    padding: 10px 30px 10px 30px;
+                                    text-align: center;
+                                    border: none;
+                                    float: right;
+                                    width: 80%;
+
+                                    @media (max-width: @screen-md-min)
+                                    {
+                                        font-size: 32px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            h3
+            {
+                background-color: rgba(250,50,50,0.4);
+                border: 1px solid rgba(100,100,100,1.0);
+                color: rgba(166,12,12,1.0);
+                font-family: sans-serif;
+                border-radius: 10px;
+                margin: 10px auto;
+                padding: 10px;
+            }
+        }
+    }
+}

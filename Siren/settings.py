@@ -1,10 +1,24 @@
+from _include.Chimera.Chimera.databases import databases
+import sys
 import os
 
+git_submodules = [
+    '_include/Chimera/',
+    '_include/Hydra/',
+]
 
-PROJECT_PATH = os.path.abspath(os.path.dirname(__name__))
+for directory in git_submodules:
+    path = os.path.join(directory)
+    if path not in sys.path:
+        sys.path.append(path)
 
-DEBUG = True
+PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
+
+DATABASES = databases()
+
 
 ALLOWED_HOSTS = ['localhost', 'test.mealsloth.com', 'mealsloth.com']
 
@@ -24,11 +38,7 @@ STATIC_ROOT = ''
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = (
-    PROJECT_PATH + '/static',
-    PROJECT_PATH + '/static/css',
-    PROJECT_PATH + '/static/images',
-)
+STATICFILES_DIRS = ()
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
@@ -59,7 +69,7 @@ ROOT_URLCONF = 'Siren.urls'
 WSGI_APPLICATION = 'Siren.wsgi.application'
 
 TEMPLATE_DIRS = (
-    PROJECT_PATH + '/templates',
+    os.path.join(PROJECT_PATH, 'templates'),
 )
 
 INSTALLED_APPS = (

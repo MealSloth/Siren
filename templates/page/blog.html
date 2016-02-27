@@ -2,17 +2,64 @@
 <html lang="en">
 
     {% load staticfiles %}
+    {% load tags %}
+    {% load tags_blog %}
 
     <head>
         <meta charset="UTF-8">
-        <title>MealSloth</title>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <title>MealSloth | Blog</title>
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+        <script src="{% static 'js/jquery-1.12.0.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}" type="text/javascript"></script>
     </head>
 
     <body>
 
-        {% include './fragment/navbar.html' %}
+        {% include 'fragment/navbar.html' %}
+
+        <section class="siren-page-blog__section-body">
+
+            <div>
+                {% for blog_post in blog_post_list %}
+                <table>
+                    <tr>
+                        <td>
+                            <h3><a href="/blog-post/{% entry_for_key blog_post 'id' %}">{% entry_for_key blog_post 'title' %}</a></h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>{% post_time_for_blog_post blog_post %} | {% author_for_blog_post blog_post %}</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/blog-post/{% entry_for_key blog_post 'id' %}">
+                                <img src="{{ url }}{% gcs_id_for_blog_post blog_post %}"/>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>{% entry_for_key blog_post 'short_description' %}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/blog-post/{% entry_for_key blog_post 'id' %}">Read More</a>
+                        </td>
+                    </tr>
+                </table>
+                {% endfor %}
+            </div>
+
+            <div class="siren-page-blog__desktop-only">
+                {% include 'fragment/blog-sidebar.html' %}
+            </div>
+
+        </section>
+
+        {% include 'fragment/footer.html' %}
 
     </body>
 

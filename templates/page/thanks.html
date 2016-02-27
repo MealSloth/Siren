@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {% load staticfiles %}
+    {% load tags_contact %}
+
+    <head>
+        <meta charset="UTF-8">
+        <title>MealSloth | Thanks!</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+        <script src="{% static 'js/jquery-1.12.0.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}" type="text/javascript"></script>
+    </head>
+
+    <body>
+
+        {% include 'fragment/navbar.html' %}
+
+        <section class="siren-page-thanks__section-header">
+
+            <div>
+                <h1>Thank You!</h1>
+                <div>
+                    <div>
+                        {% if type == 'contact' %}
+                            <h3>Thanks, <strong>{% name_from_contact_id id %}</strong>!</h3>
+                        {% endif %}
+                        <h4>You will now receive emails at the following address:</h4>
+                        <div>
+                            {% if type == 'email' %}
+                            <a href="mailto:{% email_from_email_id id %}">
+                                <h3>{% email_from_email_id id %}</h3>
+                            </a>
+                            {% else %}
+                            <a href="mailto:{% email_from_email_id id %}">
+                                <h3>{% email_from_contact_id id %}</h3>
+                            </a>
+                            {% endif %}
+                        </div>
+                        <h4>Connect with us on social media!</h4>
+                        <div>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="https://facebook.com/mealsloth" target="_blank">
+                                            <img src="{% static 'images/social-media/facebook-mono-color.png' %}"/>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://twitter.com/mealsloth" target="_blank">
+                                            <img src="{% static 'images/social-media/twitter-mono-color.png' %}"/>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://instagram.com/mealsloth" target="_blank">
+                                            <img src="{% static 'images/social-media/instagram-mono-color.png' %}"/>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <h4>We hope to serve you very soon!</h4>
+                    </div>
+                </div>
+                <div>
+                    <img src="{% static 'images/mealsloth-logo-medium.png' %}" />
+                </div>
+            </div>
+
+        </section>
+
+        {% include 'fragment/footer.html' %}
+
+    </body>
+
+</html>

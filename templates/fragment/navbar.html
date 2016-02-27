@@ -1,19 +1,45 @@
 {% load staticfiles %}
 
-<section class="siren-fragment-navbar__section-navbar">
+<section class="siren-fragment-navbar__section-navbar__desktop-only">
 
     <div>
         <img src="{% static 'images/mealsloth-logo-small.png' %}" alt="mealsloth-logo" />
-        <h5>MealSloth</h5>
+        <a href="/"><h5>MealSloth</h5></a>
         <table>
             <tr>
                 <td><a href="/">Home</a></td>
                 <td><a href="/about">About</a></td>
                 <td><a href="/blog">Blog</a></td>
                 <td><a href="/contact">Contact</a></td>
+                <td><a href="/faq">FAQ</a></td>
                 <td class="siren-fragment-navbar__section-navbar__td-space"></td>
             </tr>
         </table>
+    </div>
+
+</section>
+
+<section class="siren-fragment-navbar__section-navbar__mobile-only">
+
+    <div>
+        <table>
+            <tr>
+                <td><img src="{% static 'images/mealsloth-logo-medium.png' %}" alt="mealsloth-logo" /></td>
+                <td><a href="/"><h5>MealSloth</h5></a></td>
+            </tr>
+        </table>
+    </div>
+    <button class="btn btn-default" data-toggle="collapse" data-target="#siren-fragment-navbar__div-menu__collapsible">
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
+    </button>
+    <div class="collapse" id="siren-fragment-navbar__div-menu__collapsible">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/faq">FAQ</a></li>
+        </ul>
     </div>
 
 </section>

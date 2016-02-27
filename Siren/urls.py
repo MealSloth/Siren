@@ -10,4 +10,8 @@ urlpatterns = patterns(
     url(r'^contact/', views.contact, name='contact'),
     url(r'^consumer/', views.consumer, name='consumer'),
     url(r'^producer/', views.producer, name='producer'),
+    url(r'^thanks/(email)/([^/]+)/', views.thanks, name='thanks'),
+    url(r'^thanks/(contact)/([^/]+)/', views.thanks, name='thanks'),
+    url(r'^blog-post/([^/]+)/', views.blog_post, name='blog_post'),
+    url(r'^faq/', views.faq, name='faq'),
 ) + staticfiles_urlpatterns()

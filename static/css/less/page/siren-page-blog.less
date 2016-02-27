@@ -1,0 +1,118 @@
+@import "../imports";
+
+div.siren-page-blog__desktop-only { @media (max-width: @screen-md-min) { display: none; } }
+
+section.siren-page-blog__section-body
+{
+    padding: 60px 0 50px 0;
+    overflow: auto;
+
+    @media (max-width: @screen-md-min) { padding: 140px 0 50px 0; }
+
+    > div:first-child
+    {
+        text-align: left;
+        float: left;
+        width: 66%;
+
+        @media (max-width: @screen-md-min)
+        {
+            margin: 0 auto;
+            float: none;
+            width: 90%;
+        }
+
+        > table
+        {
+            border: 4px solid rgba(150,150,150,1.0);
+            margin: 30px 0 30px auto;
+            width: 75%;
+
+            @media (max-width: @screen-md-min) { width: 100%; }
+
+            tr
+            {
+                td
+                {
+                    padding: 0 20px 0 20px;
+                    overflow: hidden;
+
+                    h3
+                    {
+                        font-weight: bolder;
+                        font-size: 28px;
+
+                        @media (max-width: @screen-md-min) { font-size: 72px; }
+
+                        a
+                        {
+                            color: rgba(10,10,10,1.0);
+                        }
+
+                        a:hover
+                        {
+                            color: rgba(40,40,40,1.0);
+                            text-decoration: none;
+                        }
+                    }
+
+                    h5
+                    {
+                        color: rgba(130,130,130,1.0);
+
+                        @media (max-width: @screen-md-min) { font-size: 42px; }
+                    }
+
+                    img
+                    {
+                        padding: 10px 0 20px 0;
+                        max-height: 100%;
+                        max-width: 80%;
+                        width: 80%;
+                    }
+
+                    p
+                    {
+                        font-size: 18px;
+                        padding: 5px;
+
+                        @media (max-width: @screen-md-min) { font-size: 28px; }
+                    }
+                }
+            }
+
+            tr:last-of-type
+            {
+                td
+                {
+                    text-align: center;
+                    padding: 20px;
+
+                    @media (max-width: @screen-md-min) { padding: 36px; }
+
+                    a
+                    {
+                        border: 2px solid rgba(10,10,10,1.0);
+                        padding: 4px 30px 4px 30px;
+                        color: rgba(20,20,20,1.0);
+                        font-size: 15px;
+
+                        @media (max-width: @screen-md-min)
+                        {
+                            padding: 15px 60px 15px 60px;
+                            font-size: 28px;
+                        }
+                    }
+
+                    a:hover
+                    {
+                        color: rgba(70,70,70,1.0);
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+                }
+
+            }
+        }
+    }
+}

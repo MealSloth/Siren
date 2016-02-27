@@ -5,14 +5,15 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>MealSloth</title>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <title>MealSloth | Cooking Enthusiast</title>
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+        <script src="{% static 'js/jquery-1.12.0.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}" type="text/javascript"></script>
     </head>
 
     <body>
 
-        {% include './fragment/navbar.html' %}
+        {% include 'fragment/navbar.html' %}
 
         <section class="siren-page-producer__section-header">
 
@@ -24,13 +25,17 @@
                     <img src="{% static 'images/producer/overhead-food-presentation-salmon.png' %}"/>
                 </div>
                 <br />
-                <h3>We don't need professional chef, <span style="color:darkred">we need cooking enthusiast.</span> </h3>
+                <h3>We don't need professional chefs. <span style="color:darkred">We need cooking enthusiasts!</span> </h3>
                 <h3>Join us to earn some extra cash while cooking at home.</h3>
             </div>
 
         </section>
 
-        {% include './fragment/contact-form.html' %}
+        {% include 'fragment/contact-form.html' with form=form %}
+
+        <div style="height:80px"></div>
+
+        {% include 'fragment/footer.html' %}
 
     </body>
 
