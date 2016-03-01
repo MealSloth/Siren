@@ -19,7 +19,6 @@ TEMPLATE_DEBUG = DEBUG
 
 DATABASES = databases()
 
-
 ALLOWED_HOSTS = ['localhost', 'mealsloth.com', 'mealsloth-siren-ap02.appspot.com', ]
 
 TIME_ZONE = 'America/Chicago'
