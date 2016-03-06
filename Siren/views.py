@@ -1,6 +1,6 @@
+from _include.Chimera.Chimera.settings import GCS_URL, PROTOCOL
 from form.contact.form_contact_email import ContactEmailForm
 from django.http import HttpResponse, HttpResponseRedirect
-from _include.Chimera.Chimera.settings import GCS_URL
 from _include.Chimera.Chimera.models import BlogPost
 from form.contact.form_contact import ContactForm
 from django.core.urlresolvers import reverse
@@ -40,7 +40,7 @@ def about(request):
 
 def blog(request):
     blog_post_list = list(BlogPost.objects.all().order_by('-post_time').values())
-    response = render(request, 'page/blog.html', Context({'blog_post_list': blog_post_list, 'url': GCS_URL}))
+    response = render(request, 'page/blog.html', Context({'blog_post_list': blog_post_list, 'url': PROTOCOL + GCS_URL}))
     return HttpResponse(response)
 
 
@@ -48,7 +48,7 @@ def blog_post(request, blog_post_id):
     current_blog_post = BlogPost.objects.filter(id=blog_post_id).values()[0]
     blog_post_list = list(BlogPost.objects.order_by('-post_time').all().values())
     response = render(request, 'page/blog-post.html', Context({
-        'blog_post': current_blog_post, 'blog_post_list': blog_post_list, 'url': GCS_URL,
+        'blog_post': current_blog_post, 'blog_post_list': blog_post_list, 'url': PROTOCOL + GCS_URL,
     }))
     return HttpResponse(response)
 
