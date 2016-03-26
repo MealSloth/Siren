@@ -1,18 +1,22 @@
-from _include.Chimera.Chimera.databases import databases
 import sys
 import os
 
 git_submodules = [
-    '_include/Chimera/',
-    '_include/Hydra/',
+    '/_include/Chimera/',
+    '/_include/Hydra/',
 ]
+
+PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 for directory in git_submodules:
     path = os.path.join(directory)
     if path not in sys.path:
-        sys.path.append(path)
+        sys.path.append(PROJECT_PATH + path)
 
-PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append('/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages')
+sys.path.append('/Library/Python/2.7/site-packages')
+print sys.path
+from _include.Chimera.Chimera.databases import databases
 
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
