@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" prefix="og: http://ogp.me/ns#">
 
     {% load staticfiles %}
     {% load tags %}
@@ -9,7 +9,7 @@
     <head>
         <meta charset="UTF-8">
         <meta property="og:type" content="article">
-        <meta property="og:image" content="{{ url }}{% gcs_id_for_blog_post blog_post %}">
+        <meta property="og:image" content="{{ url }}{% gcs_id_for_blog_post blog_post %}" />
         <title>MealSloth | {% entry_for_key blog_post 'title' %}</title>
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
         <script src="{% static 'js/jquery-1.12.0.min.js' %}"></script>
