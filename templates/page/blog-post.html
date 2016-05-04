@@ -9,6 +9,8 @@
     <head>
         <meta charset="UTF-8">
         <meta property="og:type" content="article">
+        <meta property="og:title" content="{% entry_for_key blog_post 'title' %}">
+        <meta property="og:descriptio" content="{% entry_for_key blog_post 'short_description' %}">
         <meta property="og:image" content="{{ url }}{% gcs_id_for_blog_post blog_post %}" />
         <title>MealSloth | {% entry_for_key blog_post 'title' %}</title>
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
