@@ -10,8 +10,8 @@ skip_files:
 - ^(.*/)?.*\.pack$
 - ^(.*/)?.*\.DS_Store$
 - ^(.*/)?.*\.csslintrc$
-- ^(.*/)?.*/\.idea/.*$
-- ^(.*/)?.*/\.git/.*$
+- ^(.*/)?.*/\.idea/\.*$
+- ^(.*/)?.*/\.git/\.*$
 
 handlers:
 - url: /favicon\.ico

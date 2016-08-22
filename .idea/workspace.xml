@@ -57,8 +57,8 @@
       <file leaf-file-name="app.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="195">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -232,7 +232,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../valkyrie" />
     <property name="SearchEverywhereHistoryKey" value="siren-&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/static/css/less/page/siren-page-about.less&#10;app.&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/app.yaml&#10;less&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/static/css/less/page/siren-page-home.less&#10;about&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/static/css/less/page/siren-page-about.less&#10;sett&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/settings.py&#10;siren-p&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/static/css/less/page/siren-page-home.less&#10;home.h&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/templates/home.html&#10;siren-hom&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/static/css/less/page/siren-page-home.less&#10;navb&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/static/css/less/fragment/siren-fragment-navbar.less&#10;siren-h&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/static/css/less/siren-home.less&#10;home.ht&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/templates/home.html&#10;url&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/urls.py&#10;urls&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/urls.py&#10;views&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/views.py&#10;set&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/settings.py&#10;se&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/settings.py&#10;settings&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/settings.py&#10;settin&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/settings.py" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -761,7 +761,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471828961511</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Skip files and adding version specification in app.yaml">
+      <created>1471829364572</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1471829364572</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -778,7 +785,7 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="App Config Tool" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27258688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="App Config Tool" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27258688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -813,7 +820,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modified hierarchy and added pages for new design" />
     <MESSAGE value="Standardized pages" />
     <MESSAGE value="Starting skeleton" />
     <MESSAGE value="Removed defunct directory" />
@@ -838,7 +844,8 @@
     <MESSAGE value="Moving templates to app module" />
     <MESSAGE value="Fixing settings based on all the refactoring changes" />
     <MESSAGE value="Workspace stuff and adding Chimera to installed apps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workspace stuff and adding Chimera to installed apps" />
+    <MESSAGE value="Skip files and adding version specification in app.yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Skip files and adding version specification in app.yaml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1023,8 +1030,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state relative-caret-position="195">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding />
         </state>
       </provider>
