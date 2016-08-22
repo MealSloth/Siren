@@ -2,17 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa755381-9f9e-4e57-a279-ec56bdd15628" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Siren.iml" afterPath="$PROJECT_DIR$/.idea/Siren.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Google_App_Engine_SDK.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Google_App_Engine_SDK.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/Siren.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/fragment/blog-sidebar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/fragment/contact-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/fragment/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/fragment/head.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/fragment/navbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/page/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/page/blog-post.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/page/blog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/page/consumer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/page/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/page/faq.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/page/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/page/producer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Siren/templates/page/thanks.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/Siren.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/fragment/blog-sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/fragment/contact-form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/fragment/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/fragment/head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/fragment/navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page/blog-post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page/consumer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page/contact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page/producer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page/thanks.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren" afterPath="$PROJECT_DIR$/Siren" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/form/contact/form_contact.py" afterPath="$PROJECT_DIR$/Siren/form/contact/form_contact.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/form/contact/form_contact_email.py" afterPath="$PROJECT_DIR$/Siren/form/contact/form_contact_email.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/settings.py" afterPath="$PROJECT_DIR$/Siren/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/templatetags/tags_blog.py" afterPath="$PROJECT_DIR$/Siren/templatetags/tags_blog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/templatetags/tags_contact.py" afterPath="$PROJECT_DIR$/Siren/templatetags/tags_contact.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Siren/views.py" afterPath="$PROJECT_DIR$/Siren/views.py" />
     </list>
     <list id="268a15cf-978d-4c6c-866b-dc024dd1f84d" name="Extra Stuff" comment="" />
     <ignored path="untitled.iws" />
@@ -36,12 +62,12 @@
     <favorites_list name="untitled" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="form_contact.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Siren/form/contact/form_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -128,8 +154,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1280" />
+    <option name="height" value="1413" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -174,6 +200,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Siren" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="siren" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Siren" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Siren" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="siren" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Siren" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -185,7 +243,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="/usr/local/bin/lessc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="siren-&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/static/css/less/page/siren-page-about.less&#10;app.&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/app.yaml&#10;less&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/static/css/less/page/siren-page-home.less&#10;about&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/static/css/less/page/siren-page-about.less&#10;sett&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/settings.py&#10;siren-p&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/static/css/less/page/siren-page-home.less&#10;home.h&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/templates/home.html&#10;siren-hom&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/static/css/less/page/siren-page-home.less&#10;navb&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/static/css/less/fragment/siren-fragment-navbar.less&#10;siren-h&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/static/css/less/siren-home.less&#10;home.ht&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/templates/home.html&#10;url&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/urls.py&#10;urls&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/urls.py&#10;views&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/views.py&#10;set&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/settings.py&#10;se&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/settings.py&#10;settings&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/settings.py&#10;settin&#9;FILE&#9;file:///Users/michael/Desktop/MealSloth/Siren/Siren/settings.py" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -193,11 +251,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Siren" />
       <recent name="$PROJECT_DIR$/Siren/static/img/producer" />
       <recent name="$PROJECT_DIR$/Siren/static/img/contact" />
       <recent name="$PROJECT_DIR$/Siren/static/img/about" />
       <recent name="$PROJECT_DIR$/Siren/static/css/less/fragment" />
-      <recent name="$PROJECT_DIR$/Siren/static/css/less/page" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.untitled">
@@ -686,7 +744,14 @@
       <option name="project" value="LOCAL" />
       <updated>1452798738749</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Refactoring submodule paths">
+      <created>1471823902018</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1471823902018</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -699,15 +764,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="1413" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23125795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29725364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -722,6 +786,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32478634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -761,7 +826,8 @@
     <MESSAGE value="Removing deprecated navbar sections from less" />
     <MESSAGE value="Modifying internal html and less to reflect siren-page-home name refactor" />
     <MESSAGE value="Smartphone image for about page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Smartphone image for about page" />
+    <MESSAGE value="Refactoring submodule paths" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring submodule paths" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -770,6 +836,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Siren/form/contact/form_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Siren/static/css/less/page/siren-page-about.less" />
     <entry file="file://$PROJECT_DIR$/Siren/static/css/less/page/siren-page-about.less" />
     <entry file="file://$PROJECT_DIR$/main.py">
@@ -931,8 +1007,8 @@
     <entry file="file://$PROJECT_DIR$/Siren/static/css/less/page/siren-page-about.less" />
     <entry file="file://$PROJECT_DIR$/Siren/form/contact/form_contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
