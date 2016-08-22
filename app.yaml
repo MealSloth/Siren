@@ -4,13 +4,14 @@ runtime: python27
 api_version: 1
 threadsafe: true
 
-
 skip_files:
 - ^(.*/)?.*\.pyc$
 - ^(.*/)?.*\.less$
+- ^(.*/)?.*\.pack$
 - ^(.*/)?.*\.DS_Store$
 - ^(.*/)?.*\.csslintrc$
-
+- ^(.*/)?.*/\.idea/.*$
+- ^(.*/)?.*/\.git/.*$
 
 handlers:
 - url: /favicon\.ico
@@ -25,6 +26,6 @@ handlers:
 
 libraries:
 - name: django
-  version: "latest"
+  version: "1.5"
 - name: MySQLdb
-  version: "latest"
+  version: "1.2.5"
